@@ -5,13 +5,13 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+web_bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+web/log/*
+web/tmp/*
+!web/log/.keep
+!web/tmp/.keep
 
 /node_modules
 /yarn-error.log
@@ -19,4 +19,4 @@
 .byebug_history
 .DS_Store
 
-/development.env
+.env
