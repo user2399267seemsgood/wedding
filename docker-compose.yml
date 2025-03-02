@@ -1,16 +1,41 @@
-version: '3.7'
-
 services:
   db:
     image: postgres:10
+    container_name: ${SERVICE_NAME}-db
     environment:
-      POSTGRES_HOST_AUTH_METHOD: trust
-    ports:
-      - '5432:5432'
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - TZ=Europe/Zurich
+    volumes:
+      - ./db/data:/var/lib/pgsql/data
+      - ./db/init:/docker-entrypoint-initdb.d
+      - /etc/localtime:/etc/localtime:ro
+#    ports:
+#      - '5432:5432'
 
   web:
-    build: .
-    ports:
-      - '3000:3000'
-    links:
+    build: ./web
+    container_name: ${SERVICE_NAME}-web
+    environment:
+      - RAILS_ENV=development
+      - SMTP_PORT
+      - SMTP_DOMAIN
+      - SMPT_USER_NAME
+      - SMTP_PASSWORD
+      - SMTP_AUTHENTICATION
+      - SMTP_ENABLE_STARTTLS_AUTO=true
+      - VIRTUAL_HOST=${SERVICE_NAME}.${DOMAIN_NAME},hochzeit.${DOMAIN_NAME},casamento.${DOMAIN_NAME}
+      - VIRTUAL_PORT=3000
+      - VIRTUAL_NETWORK=1
+      - TZ=Europe/Zurich
+    volumes:
+      - ./web:/home/app/wedding
+      - ./web_bundle:/usr/local/bundle
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
       - db
+
+networks:
+  default:
+    name: duck-net
+    external: true
+

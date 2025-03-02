@@ -29,9 +29,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  wedding_name: "Roxan and Daniel's Wedding"
+de:
+  wedding_name: "Roxan und Daniels Hochzeit"
   wedding_couple_names: 'Roxan & Daniel'
-  wedding_date: 'Tuesday, 19th of August 2025'
+  wedding_date: 'Dienstag, 19. August 2025'
   wedding_location: '8808, Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
