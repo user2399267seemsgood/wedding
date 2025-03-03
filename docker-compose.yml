@@ -6,7 +6,7 @@ services:
       - POSTGRES_HOST_AUTH_METHOD=trust
       - TZ=Europe/Zurich
     volumes:
-      - ./db/data:/var/lib/pgsql/data
+      - ./db/data:/var/lib/postgresql/data
       - ./db/init:/docker-entrypoint-initdb.d
       - /etc/localtime:/etc/localtime:ro
 #    ports:
@@ -17,6 +17,9 @@ services:
     container_name: ${SERVICE_NAME}-web
     environment:
       - RAILS_ENV=development
+      - SECRET_KEY_BASE
+      - CANONICAL_HOST
+      - CANONICAL_HOST_PROTOCOL=https
       - SMTP_PORT
       - SMTP_DOMAIN
       - SMPT_USER_NAME
