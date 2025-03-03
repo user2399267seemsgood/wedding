@@ -5,7 +5,8 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-web_bundle
+web_bundle/*
+!web_bundle/.gitkeep
 
 # Ignore all logfiles and tempfiles.
 web/log/*
