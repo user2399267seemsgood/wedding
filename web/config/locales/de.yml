@@ -33,5 +33,9 @@ de:
   wedding_name: "Roxan und Daniels Hochzeit"
   wedding_couple_names: 'Roxan & Daniel'
   wedding_date: 'Dienstag, 19. August 2025'
-  wedding_location: '8808, Pfäffikon SZ'
+  wedding_time_start_end: '14:00 Uhr bis spät'
+  wedding_location: '8808 Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
+  rsvp_today: 'Bestätige heute!'
+  when_and_where: 'Wann und Wo'
+  add_to_calendar: 'Zum Kalender hinzufügen'
