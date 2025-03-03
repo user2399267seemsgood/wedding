@@ -5,4 +5,9 @@ class WelcomeController < ApplicationController
     @google_maps_url = 'https://goo.gl/maps/nBAxNAsmPSS2'
     @cool_earth_url = 'https://www.coolearth.org/'
   end
+
+  def switch_locale
+    cookies[:locale] = params[:format].to_sym
+    redirect_to request.referrer || root_path
+  end
 end

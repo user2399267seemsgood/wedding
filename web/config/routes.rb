@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  get 'switch_locale/:format', to: 'welcome#switch_locale', as: :switch_locale
   get 'welcome/index'
 
   resources :guests do

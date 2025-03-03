@@ -1,4 +1,9 @@
 <section id="welcome-index-leader" class="jumbotron text-center">
+  <div class="language-switcher">
+     <%= link_to image_tag("flags/de.png", alt: "Deutsch"), switch_locale_path(:de) %>
+     <%= link_to image_tag("flags/pt.png", alt: "Português"), switch_locale_path(:pt) %>
+     <%= link_to image_tag("flags/en.png", alt: "English"), switch_locale_path(:en) %>
+  </div>
   <div class="container">
     <h1 class="jumbotron-heading"><%= t :wedding_couple_names %></h1>
     <p class="leader-date">

@@ -2,6 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.language-switcher {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.language-switcher img {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
 #welcome-index-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
     image-url("jumbo.jpg") center center no-repeat;
