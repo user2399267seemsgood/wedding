@@ -13,6 +13,10 @@ web/tmp/*
 !web/log/.keep
 !web/tmp/.keep
 
+# Database
+db/data/*
+!db/data/.gitkeep
+
 /node_modules
 /yarn-error.log
 
