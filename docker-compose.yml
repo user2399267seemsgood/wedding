@@ -20,6 +20,8 @@ services:
       - SECRET_KEY_BASE
       - CANONICAL_HOST
       - CANONICAL_HOST_PROTOCOL=https
+      - FROM_EMAIL
+      - CONTACT_EMAIL
       - SMTP_PORT
       - SMTP_DOMAIN
       - SMPT_USER_NAME
