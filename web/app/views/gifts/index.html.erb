@@ -1,0 +1,32 @@
+<div class="gift-list">
+  <h1>🎁 Wedding Gifts 🎁</h1>
+
+  <% @gifts.each do |gift| %>
+    <div class="gift-item <%= 'claimed' if gift.claimed %>">
+      
+      <!-- Gift Image -->
+      <% if gift.image.attached? %>
+        <img src="<%= url_for(gift.image) %>" alt="<%= gift.name %>" class="gift-image">
+      <% end %>
+
+      <!-- Gift Details -->
+      <div class="gift-details">
+        <div class="gift-name"><%= gift.name %></div>
+        <p class="gift-description"><%= gift.description %></p>
+
+        <% if gift.claimed %>
+          <p class="claimed-text">Claimed by <%= gift.claimer_name %></p>
+        <% else %>
+          <form action="<%= claim_gift_path(gift) %>" method="post" class="claim-form">
+            <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Claim Gift 🎁</button>
+          </form>
+        <% end %>
+      </div>
+
+    </div>
+  <% end %>
+</div>
+

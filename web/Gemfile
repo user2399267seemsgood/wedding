@@ -35,7 +35,7 @@ gem 'scenic'
 
 # For Multi-Language Support
 gem 'globalize', '~> 5.0'
-
+gem 'activestorage-validator'
 
 group :development, :test do
   gem 'rubocop'

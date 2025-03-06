@@ -1,0 +1,131 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Page Title */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Gift List Container */
+.gift-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Gift Item */
+.gift-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gift-item:hover {
+  transform: scale(1.02);
+}
+
+/* Gift Image */
+.gift-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+/* Grayscale effect if claimed */
+.claimed .gift-image {
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+/* Gift Details */
+.gift-details {
+  flex: 1;
+}
+
+/* Gift Name */
+.gift-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Gift Description */
+.gift-description {
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Claimed Gift Styling */
+.claimed {
+  background-color: #e0e0e0; /* Soft gray background */
+}
+
+.claimed .gift-name,
+.claimed .gift-description {
+  font-style: italic; /* Cursive text */
+  color: #555; /* Subtle gray text */
+}
+
+.claimed .claimed-text {
+  font-style: italic;
+  color: #777 /* Softer gray */;
+}
+
+/* Claim Form */
+.claim-form {
+  margin-top: 10px;
+}
+
+.claim-form input,
+.claim-form button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.claim-form button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.claim-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .gift-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gift-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+

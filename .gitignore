@@ -18,6 +18,10 @@ web/tmp/*
 db/data/*
 !db/data/.gitkeep
 
+# Image Storage
+web/storage/*
+!web/storage/.gitkeep
+
 /node_modules
 /yarn-error.log
 
