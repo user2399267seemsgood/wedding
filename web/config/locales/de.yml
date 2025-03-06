@@ -39,3 +39,6 @@ de:
   rsvp_today: 'Bestätige heute!'
   when_and_where: 'Wann und Wo'
   add_to_calendar: 'Zum Kalender hinzufügen'
+  time:
+    formats:
+      long: "%d-%m-%Y %H:%M:%S"
