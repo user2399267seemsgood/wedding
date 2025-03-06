@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_03_03_220532) do
+ActiveRecord::Schema.define(version: 2025_03_06_163153) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
@@ -76,6 +76,9 @@ ActiveRecord::Schema.define(version: 2025_03_03_220532) do
     t.datetime "updated_at", null: false
     t.string "claimer_name"
     t.string "claimer_email"
+    t.string "image_url"
+    t.string "price_range"
+    t.string "purchase_link"
   end
 
   create_table "guests", force: :cascade do |t|

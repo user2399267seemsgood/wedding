@@ -14,5 +14,9 @@ class GiftsController < ApplicationController
       redirect_to gifts_path, alert: "Something went wrong."
     end
   end
+
+  def gift_params
+    params.require(:gift).permit(:name, :description, :image, :image_url, :buy_url, :claimed, :price_range)
+  end
 end
 

@@ -6,13 +6,27 @@
       
       <!-- Gift Image -->
       <% if gift.image.attached? %>
-        <img src="<%= url_for(gift.image) %>" alt="<%= gift.name %>" class="gift-image">
+        <img src="<%= url_for(gift.image) %>" alt="<%= gift.name %>" class="gift-image" />
+      <% elsif gift.image_url.present? %>
+        <img src="<%= gift.image_url %>" alt="<%= gift.name %>" class="gift-image" />
       <% end %>
 
       <!-- Gift Details -->
       <div class="gift-details">
         <div class="gift-name"><%= gift.name %></div>
         <p class="gift-description"><%= gift.description %></p>
+        <p class="gift-description">Price Range:
+          <% if gift.price_range == "$$$" %>
+          💎💎💎
+          <% elsif gift.price_range == "$$" %>
+          💎💎
+          <% else %>
+          💎
+          <% end %>
+        </p>
+        <% if gift.purchase_link.present? %>
+          <p><a href="<%= gift.purchase_link %>" target="_blank">Shop Link</a></p>
+        <% end %>
 
         <% if gift.claimed %>
           <p class="claimed-text">Claimed by <%= gift.claimer_name %></p>
