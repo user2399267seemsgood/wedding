@@ -1,3 +1,22 @@
+# Changes to original
+
+- Support for Gifts
+    - There is a list of available gifts.
+    - Guests can claim gifts.
+    - Admin can manage gifts.
+- Restructured folders, s.t. all that is in folder `web` is on the webpage
+- Deleted all superfluous `docker-compose...` files and kept only the main one.
+- Changes to `docker-compose.yml` / `.env-dist` (former development.env.template)
+    - Database is persisted in the folder `db/data`
+    - Bundle installation is persisted in `web_bundle`
+    - Added all necessary Environment Variables to .env-dist
+    - Support for running the web page under an nginx-proxy
+- Language support for German / Portuguese / English
+    - Buttons on Home Page to switch languages
+    - Using I18n
+
+------------------
+
 # Rails App for Weddings and Similar Events
 
 ![CI status](https://github.com/jdleesmiller/wedding/workflows/CI/badge.svg)
