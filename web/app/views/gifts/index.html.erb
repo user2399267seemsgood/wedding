@@ -1,5 +1,5 @@
 <div class="gift-list">
-  <h1>🎁 Wedding Gifts 🎁</h1>
+  <h1>🎁 <%= t :gifts_title %> 🎁</h1>
 
   <% @gifts.each do |gift| %>
     <div class="gift-item <%= 'claimed' if gift.claimed %>">

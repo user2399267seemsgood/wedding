@@ -33,6 +33,24 @@ en:
   wedding_name: "Roxan and Daniel's Wedding"
   wedding_couple_names: 'Roxan & Daniel'
   wedding_date: 'Tuesday, 19th of August 2025'
+  wedding_time_start_end: "14:00 to 18:00 o'clock"
   wedding_location: '8808, Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
+
+  when_and_where: 'When and Where'
+  add_to_calendar: 'Add to calendar'
+  comment_anything_else: "Anything else you'd like to let us know?"
+  timeplan_title: 'Time Schedule'
+  timeplan_guests_arrive: 'Guests arrive'
+  timeplan_wedding_service: 'Wedding'
+  timeplan_photos_aperitiv: 'Photos and aperitiv'
+  timeplan_dinner_close_family: 'Dinner with close family'
+  timeplan_dresscode: 'Chiq'
+
+  gifts_title: 'Wedding Gifts'
+  gifts_desciption: 'We would be very happy to receive some gifts. To make it simple for you, we have made a list of things we would be happy to have.'
+  gifts_button: 'Wedding Gifts List'
+
+  rsvp_title: 'RSVP'
+  rsvp_description: "Please RSVP as soon as possible, so we know who is coming and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out you can’t make it, please let us know as soon as you can."
   rsvp_today: 'RSVP TODAY!'
