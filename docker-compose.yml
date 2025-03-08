@@ -9,6 +9,7 @@ services:
       - ./db/data:/var/lib/postgresql/data
       - ./db/init:/docker-entrypoint-initdb.d
       - /etc/localtime:/etc/localtime:ro
+    platform: linux/x86_64
 #    ports:
 #      - '5432:5432'
 
@@ -38,6 +39,7 @@ services:
       - ./web:/home/app/wedding
       - ./web_bundle:/usr/local/bundle
       - /etc/localtime:/etc/localtime:ro
+    platform: linux/x86_64
     depends_on:
       - db
 

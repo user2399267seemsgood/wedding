@@ -29,3 +29,7 @@ web/storage/*
 .DS_Store
 
 .env
+docker-compose.override.yml
+
+# For development notes. E.g. Admin PW.
+notes.txt
