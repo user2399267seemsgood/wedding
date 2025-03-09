@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:10
+    image: postgres:17
     container_name: ${SERVICE_NAME}-db
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
