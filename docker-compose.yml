@@ -19,7 +19,7 @@ services:
     environment:
       - RAILS_ENV=development
       - SECRET_KEY_BASE
-      - CANONICAL_HOST
+      - CANONICAL_URL
       - CANONICAL_HOST_PROTOCOL=https
       - FROM_EMAIL
       - CONTACT_EMAIL
@@ -31,7 +31,7 @@ services:
       - SMTP_AUTHENTICATION=plain
       - SMTP_ENABLE_STARTTLS_AUTO=true
       - WEDDING_DATABASE_PASSWORD
-      - VIRTUAL_HOST=${SERVICE_NAME}.${DOMAIN_NAME},hochzeit.${DOMAIN_NAME},casamento.${DOMAIN_NAME}
+      - VIRTUAL_HOST=${CANONICAL_URL}
       - VIRTUAL_PORT=3000
       - VIRTUAL_NETWORK=1
       - TZ=Europe/Zurich
