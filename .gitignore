@@ -27,6 +27,7 @@ web/storage/*
 
 .byebug_history
 .DS_Store
+.vscode
 
 .env
 docker-compose.override.yml
