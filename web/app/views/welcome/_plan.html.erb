@@ -1,6 +1,6 @@
 <section id="welcome-index-wedding-plan-leader" class="jumbotron text-center">
   <div class="container">
-    <h1>The Plan</h1>
+    <h1><%= t :timeplan_section %></h1>
   </div>
 </section>
 <section id="welcome-index-wedding-plan">
@@ -20,6 +20,8 @@
           <%= link_to (t :gifts_button), gifts_path, target: "_blank", class: 'btn btn-primary wedding-cta-btn' %>
         </p>
         
+        <!-- Nicht relevant für Standesamt
+
         <h2>Menu</h2>
         <p><strong>Starter</strong> &mdash; Home Cured Salmon Gravadlax with Horseradish Cream &amp; Beetroot Tart <sup>*</sup> &dagger;</p>
         <p><strong>Main</strong> &mdash; Fricassee of Chicken with Lyonnaise Potato &ddagger;</p>
@@ -32,6 +34,8 @@
           <li><small><sup>&sect;</sup> Vegan, gluten free &amp; dairy free dessert: Fruit platter</small></li>
         </ul>
         <p>The venue is making every effort to cater for vegan, vegetarian, gluten free, allergies and other dietary preferences, as indicated in your RSVPs.</p>
+        -->
+
         <h2><%= t :rsvp_title %></h2>
         <p><%= t :rsvp_description %></p>
       </div>

@@ -37,14 +37,21 @@ en:
   wedding_location: '8808, Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
 
+  comment_anything_else: "Anything else you'd like to let us know?"
+ 
   when_and_where: 'When and Where'
   add_to_calendar: 'Add to calendar'
-  comment_anything_else: "Anything else you'd like to let us know?"
+
+  venue_title: 'The Venue'
+  venue_howtogetthere_title: 'How do I get there?'
+  venue_howtogetthere_text: 'tbd'
+
+  timeplan_section: 'The Plan'
   timeplan_title: 'Time Schedule'
   timeplan_guests_arrive: 'Guests arrive'
   timeplan_wedding_service: 'Wedding'
   timeplan_photos_aperitiv: 'Photos and aperitiv'
-  timeplan_dinner_close_family: 'Dinner with close family'
+  timeplan_dinner_close_family: 'Dinner with close family, best man and bridesmaid'
   timeplan_dresscode: 'Chiq'
 
   gifts_title: 'Wedding Gifts'
