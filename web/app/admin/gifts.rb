@@ -42,6 +42,12 @@ ActiveAdmin.register Gift do
     end
     f.actions
   end
+  
+  before_save do |gift|
+    if gift.image_url.present? && !gift.image.attached?
+      gift.download_image_from_url
+    end
+  end
 
   show do
     attributes_table do

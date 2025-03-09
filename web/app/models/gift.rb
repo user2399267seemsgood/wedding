@@ -1,15 +1,20 @@
+require 'open-uri'
+
 class Gift < ApplicationRecord
   has_one_attached :image
   validates :name, presence: true
   validates :price_range, inclusion: { in: ["$", "$$", "$$$"], allow_nil: true }
-
+  
   validate :image_format
 
-  def image_source
-    return image if image.attached?
-    return image_url if image_url.present?
-    
-    "placeholder.jpg" # Default image if neither is provided
+  before_save :download_image_from_url, if: -> { image_url.present? && image.blank? }
+
+  def download_image_from_url
+    file = URI.open(image_url)
+    filename = File.basename(URI.parse(image_url).path)
+    image.attach(io: file, filename: filename, content_type: file.content_type)
+  rescue => e
+    Rails.logger.error "Failed to download image: #{e.message}"
   end
 
   private
@@ -22,4 +27,3 @@ class Gift < ApplicationRecord
     end
   end
 end
-
