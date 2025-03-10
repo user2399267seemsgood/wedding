@@ -37,7 +37,32 @@ pt:
   wedding_location: '8808, Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
 
-  comment_anything_else: "Algo mais que nos queiras dizer?"
+  form_first_name: 'Nome'
+  form_last_name: 'Apelido'
+  form_email_description: "Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd."
+  form_continue: 'Continuar'
+  form_about_you: 'Sobre ti'
+  form_joinus_title: 'Bist du dabei?'
+  form_yes: 'Sim'
+  form_no: 'Não'
+  form_dietary_preferences: 'Alergias'
+  form_dietary_preferences_subtext: 'Por exemplo: vegan, vegetarian, gluten free, and any allergies or intolerances.'
+  form_song_suggestions: 'Sugestões de música'
+  form_song_suggestions_subtext: "Vamos criar uma playlist juntos! Diz-nos algumas músicas que gostarias de ouvir."
+  form_plus_ones: 'Acompanhamento'
+  form_plus_ones_text: 'Por favor, informa-nos abaixo se vais levar mais alguém ao casamento.'
+  form_plus_ones_none: 'Nenhum acompanhamento adicionado. Vou sozinho.'
+  form_plus_ones_add: 'Adicionar acompanhamento'
+  form_plus_ones_edit: 'Editar acompanhamento'
+  form_plus_ones_save: 'Salvar acompanhamento'
+  form_plus_ones_child: 'Criança (até aos 12)'
+  form_confirm: 'Confirmar'
+  form_your_details: 'Os teus detalhes'
+  form_other_comments: 'Comentários?'
+  comment_anything_else: 'Tens mais alguma coisa em mente?'
+  form_complete_rsvp: 'Confirmar'
+  form_thanks: 'Obrigado!'
+  form_we_sent_an_email: "Nós enviámos uma e-mail a "
  
   when_and_where: 'Quando e Onde'
   add_to_calendar: 'Adicionar ao calendário'

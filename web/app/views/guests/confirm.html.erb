@@ -4,7 +4,7 @@
       <%= render partial: 'leader' %>
       <%= render partial: 'rsvp_nav', locals: { active: 3 } %>
 
-      <h2>Confirm</h2>
+      <h2><%= t :form_confirm %></h2>
 
       <%= form_with(model: @guest, url: complete_guest_path(@guest), local: true) do |form| %>
       <div class="row">
@@ -14,7 +14,7 @@
       </div>
 
       <% if @guest.attending? %>
-      <h3>Your Details</h3>
+      <h3><%= t :form_your_details %></h3>
       <div class="card mb-3">
         <h5 class="card-header"><%= @guest.name %></h5>
         <div class="card-body">
@@ -28,7 +28,7 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              Dietary Preferences
+              <%= t :form_dietary_preferences %>
             </div>
             <div class="col-md-8">
               <% if @guest.diet.present? %>
@@ -40,7 +40,7 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              Song Suggestions
+              <%= t :form_song_suggestions %>
             </div>
             <div class="col-md-8">
               <% if @guest.songs.present? %>
@@ -58,7 +58,7 @@
         </div>
       </div>
 
-      <h3>Plus Ones</h3>
+      <h3><%= t :form_plus_ones %></h3>
       <% if @guest.plus_ones.any? %>
         <%= render @guest.plus_ones %>
       <% else %>
@@ -66,7 +66,7 @@
       <% end %>
       <% else %>
       <p>Sorry to hear you won't be joining us!</p>
-      <h3>Your Details</h3>
+      <h3><%= t :form_your_details %></h3>
       <div class="card mb-3">
         <h5 class="card-header"><%= @guest.name %></h5>
         <div class="card-body">
@@ -82,14 +82,14 @@
       </div>
       <% end %>
 
-      <h3>Other Comments?</h3>
+      <h3><%= t :form_other_comments %></h3>
 
       <%= form.text_area :notes, class: 'form-control' %>
       <small class="form-text text-muted"><%= t :comment_anything_else %></small>
 
       <div class="row guests-buttons">
         <div class="offset-md-3 col-md-6 text-center">
-          <%= form.submit 'Complete RSVP', class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+          <%= form.submit (t :form_complete_rsvp), class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
         </div>
       </div>
       <% end %>

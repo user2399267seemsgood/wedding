@@ -37,7 +37,32 @@ de:
   wedding_location: '8808 Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
   
+  form_first_name: 'Vorname'
+  form_last_name: 'Nachname'
+  form_email_description: "Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd."
+  form_continue: 'Weiter'
+  form_about_you: 'Über dich'
+  form_joinus_title: 'Bist du dabei?'
+  form_yes: 'Ja'
+  form_no: 'Nein'
+  form_dietary_preferences: 'Allergien o.ä.'
+  form_dietary_preferences_subtext: 'Beispiele: vegan, vegetarian, gluten free, and any allergies or intolerances.'
+  form_song_suggestions: 'Musik Vorschläge'
+  form_song_suggestions_subtext: "Wir erstellen eine gemeinsame Playlist! Teile uns ein paar Songs mit, die du gerne hören möchtest."
+  form_plus_ones: 'Anhang'
+  form_plus_ones_text: 'Bitte teile uns unten mit, ob du noch jemanden zur Hochzeit mitbringst.'
+  form_plus_ones_none: 'Keinen Anhang hinzugefügt. Allein unterwegs.'
+  form_plus_ones_add: 'Anhang hinzufügen'
+  form_plus_ones_edit: 'Anhang editieren'
+  form_plus_ones_save: 'Anhang speichern'
+  form_plus_ones_child: 'Kind (bis 12)'
+  form_confirm: 'Bestätigung'
+  form_your_details: 'Deine Details'
+  form_other_comments: 'Weitere Kommentare?'
   comment_anything_else: 'Hast du sonst noch etwas auf dem Herzen?'
+  form_complete_rsvp: 'Anmeldung bestätigen'
+  form_thanks: 'Danke!'
+  form_we_sent_an_email: "We've sent an email confirmation to "
 
   when_and_where: 'Wann und Wo'
   add_to_calendar: 'Zum Kalender hinzufügen'
@@ -58,7 +83,7 @@ de:
   gifts_desciption: 'Wir würden uns über Geschenke freuen. Damit ihr es etwas einfacher habt, haben wir eine Geschenkeliste erstellt. Vielen Dank bereits im Voraus.'
   gifts_button: 'Zur Geschenkeliste'
 
-  rsvp_title: 'Anmeldung bestätigen'
+  rsvp_title: 'Anmeldung'
   rsvp_description: "Please RSVP as soon as possible, so we know who is coming and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out you can’t make it, please let us know as soon as you can."
   rsvp_today: 'Bestätige heute!'
 

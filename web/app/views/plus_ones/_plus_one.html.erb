@@ -3,7 +3,7 @@
   <div class="card-body">
     <div class="row">
       <div class="col-md-4">
-        Dietary Preferences
+        <%= t :form_dietary_preferences %>
       </div>
       <div class="col-md-8">
         <% if plus_one.diet.present? %>
@@ -15,10 +15,10 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        Child
+        <%= t :form_plus_ones_child %>
       </div>
       <div class="col-md-8">
-        <p><%= plus_one.child ? 'Yes' : 'No' %></p>
+        <p><%= plus_one.child ? (t :form_yes) : (t :form_no) %></p>
       </div>
     </div>
     <div class="row">
