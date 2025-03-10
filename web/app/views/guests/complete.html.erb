@@ -3,10 +3,10 @@
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'leader' %>
       <h2><%= t :form_thanks %></h2>
-      <p>We've sent an email confirmation to <tt><%= @guest.email %></tt>.</p>
-      <p>If you don't receive the email within a few minutes, please check your spam folder, and if it's not there <%= mail_to ENV['CONTACT_EMAIL'], 'contact us' %>.</p>
-      <p>The email contains a link that you can use to update your RSVP later if you need to.</p>
-      <p><%= link_to 'Back to the Home Page', root_path %></p>
+      <p><%= t :form_we_sent_an_email %><tt><%= @guest.email %></tt>.</p>
+      <p><%= t :form_check_your_email_few_minutes %><%= mail_to ENV['CONTACT_EMAIL'], (t :form_contact_us) %>.</p>
+      <p><%= t :form_email_contains_rsvp_info %></p>
+      <p><%= link_to (t :form_back_to_homepage), root_path %></p>
     </div>
   </div>
 </div>

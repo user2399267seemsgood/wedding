@@ -39,7 +39,7 @@ de:
   
   form_first_name: 'Vorname'
   form_last_name: 'Nachname'
-  form_email_description: "Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd."
+  form_email_description: "Bitte gib deine E-Mail-Adresse ein, um zu beginnen. Wir werden dir eine E-Mail mit wichtigen Informationen schicken, sobald du dich angemeldet hast."
   form_continue: 'Weiter'
   form_about_you: 'Über dich'
   form_joinus_title: 'Bist du dabei?'
@@ -62,7 +62,15 @@ de:
   comment_anything_else: 'Hast du sonst noch etwas auf dem Herzen?'
   form_complete_rsvp: 'Anmeldung bestätigen'
   form_thanks: 'Danke!'
-  form_we_sent_an_email: "We've sent an email confirmation to "
+  form_we_sent_an_email: 'Wir haben dir eine Bestätigungsmail gesendet an '
+  form_welcome_back_title: 'Willkommen zurück'
+  form_welcome_back_text: "Es sieht so aus, als hättest du deine Anmeldung bereits ausgefüllt. Wir haben dir eine E-Mail mit einem Link geschickt, über den du sie aktualisieren kannst."
+  form_check_your_email: 'Bitte prüfe deine E-Mail Adresse inkl. Spam Ordner: '
+  form_check_your_email_few_minutes: "Wenn du die E-Mail nicht innerhalb von wenigen Minuten erhältst, überprüfe bitte deinen Spam-Ordner, und wenn sie dort nicht zu finden ist "
+  form_email_not_received: "Falls du das E-Mail nicht bekommen hast, "
+  form_email_contains_rsvp_info: "Die E-Mail enthält einen Link, über den du deine Antwort zu einem späteren Zeitpunkt aktualisieren kannst, falls du das möchtest."
+  form_contact_us: 'kontaktiere uns'
+  form_back_to_homepage: 'Zurück zur Homepage.'
 
   when_and_where: 'Wann und Wo'
   add_to_calendar: 'Zum Kalender hinzufügen'

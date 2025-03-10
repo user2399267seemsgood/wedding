@@ -63,7 +63,15 @@ en:
   form_complete_rsvp: 'Complete RSVP'
   form_thanks: 'Thanks!'
   form_we_sent_an_email: "We've sent an email confirmation to "
- 
+  form_welcome_back_title: 'Welcome Back'
+  form_welcome_back_text: "It looks like you've already registered your RSVP, so we've sent you an email with a link that you can use to update it."
+  form_check_your_email: 'Please check your email including spam folders: '
+  form_check_your_email_few_minutes: "If you don't receive the email within a few minutes, please check your spam folder, and if it's not there "
+  form_email_not_received: "If you don't receive the email, please "
+  form_email_contains_rsvp_info: "The email contains a link that you can use to update your RSVP later if you need to."
+  form_contact_us: 'contact us'
+  form_back_to_homepage: 'Back to homepage.'
+
   when_and_where: 'When and Where'
   add_to_calendar: 'Add to calendar'
 

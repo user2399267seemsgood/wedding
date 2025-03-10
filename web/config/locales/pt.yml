@@ -63,7 +63,15 @@ pt:
   form_complete_rsvp: 'Confirmar'
   form_thanks: 'Obrigado!'
   form_we_sent_an_email: "Nós enviámos uma e-mail a "
- 
+  form_welcome_back_title: 'Bemvindo de volta'
+  form_welcome_back_text: "Es sieht so aus, als hättest du deine Anmeldung bereits ausgefüllt. Wir haben dir eine E-Mail mit einem Link geschickt, über den du sie aktualisieren kannst."
+  form_check_your_email: 'Verifica o teu e-mail, inclusivamente a pasta spam: '
+  form_check_your_email_few_minutes: "Se não receberes o e-mail em poucos minutos, verifica a pasta spam. Se também não estiver aí "
+  form_email_not_received: "Se não recebeste o e-mail, "
+  form_email_contains_rsvp_info: "O e-mail contém uma ligação que podes utilizar para atualizar a tua resposta numa data posterior, se assim o desejares."
+  form_contact_us: 'contacta-nos'
+  form_back_to_homepage: 'Voltar à página principal.'
+  
   when_and_where: 'Quando e Onde'
   add_to_calendar: 'Adicionar ao calendário'
 

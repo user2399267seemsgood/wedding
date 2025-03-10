@@ -2,10 +2,10 @@
   <div class="row">
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'leader' %>
-      <h2>Welcome Back</h2>
-      <p>It looks like you've already registered your RSVP, so we've sent you an email with a link that you can use to update it.</p>
-      <p>Please check your <tt><%= @guest.email %></tt> email including spam folders!</p>
-      <p>If you don't receive the email, please <%= mail_to ENV['CONTACT_EMAIL'], 'contact us' %>.</p>
+      <h2><%= t :form_welcome_back_title %></h2>
+      <p><%= t :form_welcome_back_text %></p>
+      <p><%= t :form_check_your_email %><tt><%= @guest.email %></tt>.</p>
+      <p><%= t :form_email_not_received %><%= mail_to ENV['CONTACT_EMAIL'], (t :form_contact_us) %>.</p>
     </div>
   </div>
 </div>
