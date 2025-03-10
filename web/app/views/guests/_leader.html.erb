@@ -1,3 +1,8 @@
+<div class="language-switcher">
+    <%= link_to image_tag("flags/de.png", alt: "Deutsch"), switch_locale_path(locale: 'de') %>
+    <%= link_to image_tag("flags/pt.png", alt: "Português"), switch_locale_path(locale: 'pt') %>
+    <%= link_to image_tag("flags/en.png", alt: "English"), switch_locale_path(locale: 'en') %>
+</div>
 <div id="guests-leader" class="jumbotron text-center">
   <div class="container">
     <h1><%= t :rsvp_title %></h1>

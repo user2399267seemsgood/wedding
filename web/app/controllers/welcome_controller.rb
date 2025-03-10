@@ -7,7 +7,7 @@ class WelcomeController < ApplicationController
   end
 
   def switch_locale
-    cookies[:locale] = params[:format].to_sym
+    cookies[:locale] = params[:locale].to_sym
     redirect_to request.referrer || root_path
   end
 end
