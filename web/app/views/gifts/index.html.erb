@@ -7,8 +7,8 @@
       <!-- Gift Image -->
       <% if gift.image.attached? %>
         <img src="<%= url_for(gift.image) %>" alt="<%= gift.name %>" class="gift-image" />
-      <% elsif gift.image_url.present? %>
-        <img src="<%= gift.image_url %>" alt="<%= gift.name %>" class="gift-image" />
+      <% else %>
+        <img src="assets/placeholder_gift.jpg" alt="<%= gift.name %>" class="gift-image" />
       <% end %>
 
       <!-- Gift Details -->
