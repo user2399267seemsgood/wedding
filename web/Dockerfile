@@ -1,4 +1,4 @@
-FROM ruby:2.7.1
+FROM ruby:3.3.7
 
 RUN apt-get update -qq &&\
   curl -fsSL https://deb.nodesource.com/setup_23.x | bash - &&\

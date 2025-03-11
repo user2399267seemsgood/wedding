@@ -13,6 +13,8 @@ web/log/*
 web/tmp/*
 !web/log/.keep
 !web/tmp/.keep
+web/app/assets/builds
+public/
 
 # Database
 db/data/*

@@ -26,4 +26,17 @@ class Gift < ApplicationRecord
       errors.add(:image, "must be a PNG or JPG")
     end
   end
+
+  # Otherwise we get an error.
+  ActiveAdmin.register Gift do
+    remove_filter :image_attachment, :image_blob
+  end
+
+  def self.ransackable_attributes(auth_object = nil)
+    ["claimed", "claimer_email", "claimer_name", "created_at", "description", "id", "id_value", "image_url", "name", "price_range", "purchase_link", "updated_at"]
+  end
+
+  def self.ransackable_associations(auth_object = nil)
+    ["image_attachment", "image_blob"]
+  end
 end

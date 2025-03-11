@@ -32,6 +32,14 @@ class Guest < ApplicationRecord
     "Dear #{first_name},"
   end
 
+  def self.ransackable_attributes(auth_object = nil)
+    ["attending", "confirmed_at", "created_at", "diet", "email", "first_name", "id", "id_value", "last_name", "notes", "songs", "token", "updated_at"]
+  end
+
+  def self.ransackable_associations(auth_object = nil)
+    ["plus_ones"]
+  end
+
   validates :diet, length: { maximum: 8192 }
   validates :songs, length: { maximum: 8192 }
   validates :notes, length: { maximum: 8192 }
