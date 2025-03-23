@@ -75,11 +75,11 @@ de:
   when_and_where: 'Wann und Wo'
   add_to_calendar: 'Zum Kalender hinzufügen'
 
-  venue_title: 'Der Veranstaltungsort'
+  venue_title: 'Ort'
   venue_howtogetthere_title: 'Wie komme ich dort hin?'
   venue_howtogetthere_text: 'tbd'
 
-  timeplan_section: 'Der Plan'
+  timeplan_section: 'Plan'
   timeplan_title: 'Zeitplan'
   timeplan_guests_arrive: 'Gäste treffen ein'
   timeplan_wedding_service: 'Hochzeit'
