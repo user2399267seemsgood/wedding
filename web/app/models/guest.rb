@@ -34,11 +34,22 @@ class Guest < ApplicationRecord
   end
 
   def self.ransackable_attributes(auth_object = nil)
-    ["attending", "confirmed_at", "created_at", "diet", "email", "first_name", "id", "id_value", "last_name", "notes", "songs", "token", "updated_at"]
+    ["attending", "allowed_plus_ones", "confirmed_at", "created_at", "diet", "email", "first_name", "id", "id_value", "last_name", "notes", "songs", "token", "updated_at"]
   end
 
   def self.ransackable_associations(auth_object = nil)
     ["plus_ones"]
+  end
+
+  def is_plus_ones_allowed
+    return !allowed_plus_ones.nil? && allowed_plus_ones > 0
+  end
+
+  def can_add_plus_ones
+    if allowed_plus_ones.nil?
+      return false
+    end
+    return plus_ones.size < allowed_plus_ones
   end
 
   validates :diet, length: { maximum: 8192 }

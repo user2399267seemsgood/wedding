@@ -37,7 +37,7 @@ class GuestsController < ApplicationController
     @guest = Guest.find_by_id_token(params[:id])
 
     if @guest.update(guest_params)
-      if @guest.attending?
+      if @guest.attending? && @guest.is_plus_ones_allowed
         redirect_to guest_plus_ones_path(@guest)
       else
         redirect_to confirm_guest_path(@guest)

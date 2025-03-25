@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_03_12_220425) do
+ActiveRecord::Schema[7.2].define(version: 2025_03_25_200859) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
   enable_extension "plpgsql"
@@ -99,6 +99,7 @@ ActiveRecord::Schema[7.2].define(version: 2025_03_12_220425) do
     t.string "first_name"
     t.string "last_name"
     t.datetime "confirmed_at", precision: nil
+    t.integer "allowed_plus_ones"
     t.index ["email"], name: "index_guests_on_email", unique: true
   end
 

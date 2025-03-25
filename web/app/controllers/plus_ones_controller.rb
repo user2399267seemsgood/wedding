@@ -12,6 +12,11 @@ class PlusOnesController < ApplicationController
 
   def create
     respond_to :html
+    # Do not allow adding more than the allowed amount of plus ones.
+    if !@guest.can_add_plus_ones
+      return
+    end
+
     @plus_one = @guest.plus_ones.new(plus_one_params)
     if @plus_one.save
       redirect_to guest_plus_ones_path(@guest)

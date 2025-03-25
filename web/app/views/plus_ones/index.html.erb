@@ -13,9 +13,11 @@
       <% else %>
         <p><%= t :form_plus_ones_none %></p>
       <% end %>
+      <% if @guest.can_add_plus_ones %>
       <p>
         <%= link_to (t :form_plus_ones_add), new_guest_plus_one_path(@guest), class: 'btn btn-primary', data: { disable_with: 'Loading...' } %>
       </p>
+      <% end %>
 
       <p>&nbsp;</p>
       <p class="guests-buttons">
