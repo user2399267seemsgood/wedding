@@ -1,22 +1,25 @@
 <nav class="guests-rsvp-nav">
   <ul class="nav nav-pills nav-fill">
+    <% nav_item_index = 1 %>
     <li class="nav-item">
-      <%= link_to ('1. ' + (t :form_about_you)), guest_path(@guest), class: ['nav-link', active == 1 ? 'active' : ''] %>
+      <%= link_to (nav_item_index.to_s + '. ' + (t :form_about_you)), guest_path(@guest), class: ['nav-link', active == 1 ? 'active' : ''] %>
     </li>
     <% if @guest.is_plus_ones_allowed %>
+      <% nav_item_index += 1 %>
       <li class="nav-item">
         <% if active >= 2 %>
-          <%= link_to ('2. ' + (t :form_plus_ones)), guest_plus_ones_path(@guest), class: ['nav-link', active == 2 ? 'active' : ''] %>
+          <%= link_to (nav_item_index.to_s + '. ' + (t :form_plus_ones)), guest_plus_ones_path(@guest), class: ['nav-link', active == 2 ? 'active' : ''] %>
         <% else %>
-          <a class="nav-link <%= active == 2 ? 'active' : '' %>">2. <%= t :form_plus_ones %></a>
+          <a class="nav-link <%= active == 2 ? 'active' : '' %>"><%= nav_item_index %>. <%= t :form_plus_ones %></a>
         <% end %>
       </li>
      <% end %>
+    <% nav_item_index += 1 %>
     <li class="nav-item">
       <% if active >= 3 %>
-        <%= link_to ('3. ' + (t :form_confirm)), confirm_guest_path(@guest), class: ['nav-link', active == 3 ? 'active' : ''] %>
+        <%= link_to (nav_item_index.to_s + '. ' + (t :form_confirm)), confirm_guest_path(@guest), class: ['nav-link', active == 3 ? 'active' : ''] %>
       <% else %>
-        <a class="nav-link <%= active == 3 ? 'active' : '' %>">3. <%= t :form_confirm %></a>
+        <a class="nav-link <%= active == 3 ? 'active' : '' %>"><%= nav_item_index %>. <%= t :form_confirm %></a>
       <% end %>
     </li>
   </ul>
