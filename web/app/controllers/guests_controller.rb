@@ -10,25 +10,20 @@ class GuestsController < ApplicationController
   def create
     respond_to :html
 
-    @guest = Guest.new(guest_params)
-    unless ENV['RECAPTCHA_SECRET_KEY'].blank? || verify_recaptcha(model: @guest)
-      render :new
-      return
-    end
-
     # Only allow guests that are in the database.
     existing_guest = Guest.find_by(first_name: guest_params[:first_name], last_name: guest_params[:last_name])
     if !existing_guest
       render :not_found
       return
     end
+    @guest = existing_guest
 
-    if @guest.save
-      redirect_to guest_path(@guest)
-    else
-      @guest = existing_guest
+    # The guest filled out the form previously.
+    if @guest.confirmed_at
       GuestMailer.welcome_back_email(@guest).deliver_now
       render :new_exists
+    else
+      redirect_to guest_path(@guest)
     end
   end
 
