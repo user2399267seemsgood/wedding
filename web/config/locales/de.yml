@@ -39,7 +39,7 @@ de:
   
   form_first_name: 'Vorname'
   form_last_name: 'Nachname'
-  form_email_description: "Bitte gib deine E-Mail-Adresse ein, um zu beginnen. Wir werden dir eine E-Mail mit wichtigen Informationen schicken, sobald du dich angemeldet hast."
+  form_email_description: "Bitte gib deinen Namen und E-Mail-Adresse ein, um zu beginnen. Wir werden dir eine E-Mail mit wichtigen Informationen schicken, sobald du dich angemeldet hast."
   form_continue: 'Weiter'
   form_about_you: 'Über dich'
   form_joinus_title: 'Bist du dabei?'
@@ -71,6 +71,9 @@ de:
   form_email_contains_rsvp_info: "Die E-Mail enthält einen Link, über den du deine Antwort zu einem späteren Zeitpunkt aktualisieren kannst, falls du das möchtest."
   form_contact_us: 'kontaktiere uns'
   form_back_to_homepage: 'Zurück zur Homepage.'
+  form_invite_not_found_title: 'Keine Einladung'
+  form_invite_not_found_text: 'Wir haben deine Eindladung nicht gefunden, bitte versuche es mit einem anderen Namen auf deiner Einladung.'
+  form_invite_not_found_help: "Wenn du eine Einladung erhalten hast und dich trotzdem nicht registrieren kannst, "
 
   when_and_where: 'Wann und Wo'
   add_to_calendar: 'Zum Kalender hinzufügen'

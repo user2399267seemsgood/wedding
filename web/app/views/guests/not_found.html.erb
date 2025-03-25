@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="offset-lg-2 col-lg-8">
+      <%= render partial: 'leader' %>
+      <h2><%= t :form_invite_not_found_title %></h2>
+      <p><%= t :form_invite_not_found_text %></p>
+      <p><%= t :form_invite_not_found_help %><%= mail_to ENV['CONTACT_EMAIL'], (t :form_contact_us) %>.</p>
+    </div>
+  </div>
+</div>

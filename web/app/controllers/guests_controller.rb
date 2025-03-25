@@ -16,17 +16,19 @@ class GuestsController < ApplicationController
       return
     end
 
+    # Only allow guests that are in the database.
+    existing_guest = Guest.find_by(first_name: guest_params[:first_name], last_name: guest_params[:last_name])
+    if !existing_guest
+      render :not_found
+      return
+    end
+
     if @guest.save
       redirect_to guest_path(@guest)
     else
-      existing_guest = Guest.find_by(email: guest_params[:email])
-      if existing_guest
-        @guest = existing_guest
-        GuestMailer.welcome_back_email(@guest).deliver_now
-        render :new_exists
-      else
-        render :new
-      end
+      @guest = existing_guest
+      GuestMailer.welcome_back_email(@guest).deliver_now
+      render :new_exists
     end
   end
 

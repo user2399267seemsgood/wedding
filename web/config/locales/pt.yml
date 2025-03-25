@@ -39,7 +39,7 @@ pt:
 
   form_first_name: 'Nome'
   form_last_name: 'Apelido'
-  form_email_description: "Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd."
+  form_email_description: "Please enter your name and email address to begin. We'll send you an email with important information once you have RSVP'd."
   form_continue: 'Continuar'
   form_about_you: 'Sobre ti'
   form_joinus_title: 'Bist du dabei?'
@@ -71,6 +71,9 @@ pt:
   form_email_contains_rsvp_info: "O e-mail contém uma ligação que podes utilizar para atualizar a tua resposta numa data posterior, se assim o desejares."
   form_contact_us: 'contacta-nos'
   form_back_to_homepage: 'Voltar à página principal.'
+  form_invite_not_found_title: 'No Invitation Found'
+  form_invite_not_found_text: 'We were not able to find your invitation, please try another name that is on your invitation.'
+  form_invite_not_found_help: "If you got an invitation but cannot register here, please "
   
   when_and_where: 'Quando e Onde'
   add_to_calendar: 'Adicionar ao calendário'
