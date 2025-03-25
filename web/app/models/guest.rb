@@ -15,6 +15,7 @@ class Guest < ApplicationRecord
   validates :first_name, length: { maximum: 1024 }
   validates :last_name, presence: true, if: :persisted?
   validates :last_name, length: { maximum: 1024 }
+  validates :first_name, uniqueness: { scope: [:last_name] }
 
   def name
     "#{first_name} #{last_name}"
