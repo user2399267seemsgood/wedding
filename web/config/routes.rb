@@ -7,6 +7,13 @@ Rails.application.routes.draw do
   get 'switch_locale/:locale', to: 'welcome#switch_locale', as: :switch_locale
   get 'welcome/index'
 
+  resources :guests, only: [:new] do
+    collection do
+      get "search"
+      post "confirm"
+    end
+  end
+
   resources :guests do
     resources :plus_ones
     member do

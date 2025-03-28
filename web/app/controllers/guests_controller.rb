@@ -1,17 +1,34 @@
 # frozen_string_literal: true
 
 class GuestsController < ApplicationController
+  skip_before_action :verify_authenticity_token, only: [:confirm]
+ 
   def new
     respond_to :html
 
     @guest = Guest.new
   end
 
+  # Search guests and their plus ones
+  def search
+    query = params[:name].downcase
+
+    guests = Guest.where("LOWER(first_name) LIKE ?", "%#{query}%").select(:id, :first_name, :last_name)
+
+    plus_one_matches = PlusOne.joins(:guest)
+                              .where("LOWER(plus_ones.first_name) LIKE ?", "%#{query}%")
+                              .pluck("plus_ones.id", "plus_ones.first_name", "plus_ones.last_name", "guests.id")
+                              .map { |plus_one_id, plus_one_first_name, plus_one_last_name, guest_id| { id: guest_id, first_name: plus_one_first_name, last_name: plus_one_last_name } }
+
+    matches = guests + plus_one_matches
+    render json: { guests: matches.uniq }
+  end
+
   def create
     respond_to :html
 
     # Only allow guests that are in the database.
-    existing_guest = Guest.find_by(first_name: guest_params[:first_name], last_name: guest_params[:last_name])
+    existing_guest = Guest.find_by(id: guest_params[:guest_id])
     if !existing_guest
       render :not_found
       return
@@ -68,7 +85,7 @@ class GuestsController < ApplicationController
 
   def guest_params
     params.require(:guest).permit(
-      :email, :first_name, :last_name, :attending, :diet, :songs, :notes
+      :guest_id, :email, :first_name, :last_name, :attending, :diet, :songs, :notes
     )
   end
 end
