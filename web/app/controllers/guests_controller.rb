@@ -12,6 +12,15 @@ class GuestsController < ApplicationController
 
     # Only allow guests that are in the database.
     existing_guest = Guest.find_by(first_name: guest_params[:first_name], last_name: guest_params[:last_name])
+    # Check if there is a plus one with that name
+    if !existing_guest
+      guest_ids = PlusOne.select(:guest_id).where(first_name: guest_params[:first_name], last_name: guest_params[:last_name])
+      # If there is not exactly one match we cannot determine which guest to use.
+      if guest_ids.length() == 1
+        existing_guest = Guest.find_by(id: guest_ids[0].guest_id)
+      end
+    end
+    # if there is still no match, render not found
     if !existing_guest
       render :not_found
       return
