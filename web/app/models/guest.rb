@@ -8,12 +8,12 @@ class Guest < ApplicationRecord
 
   auto_strip_attributes :email, :first_name, :last_name, :diet, :songs, :notes
 
-  validates :email, allow_blank: true, uniqueness: true
+  validates :email, uniqueness: true
   validates :email, format: Devise.email_regexp, allow_blank: true
 
-  validates :first_name, presence: true, if: :persisted?
+  validates :first_name, presence: true
   validates :first_name, length: { maximum: 1024 }
-  validates :last_name, presence: true, if: :persisted?
+  validates :last_name, presence: true
   validates :last_name, length: { maximum: 1024 }
   validates :first_name, uniqueness: { scope: [:last_name] }
 
