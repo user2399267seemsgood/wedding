@@ -14,6 +14,8 @@ Rails.application.routes.draw do
       patch :complete
     end
   end
+  get "guest_exists/:first_name/:last_name", to: "guests#new_exists", as: :guest_exists
+  get "guest_not_found", to: "guests#not_found", as: :guest_not_found
 
   root 'welcome#index'
 

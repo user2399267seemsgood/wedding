@@ -7,6 +7,10 @@ class GuestsController < ApplicationController
     @guest = Guest.new
   end
 
+  def new_exists
+    @guest = Guest.find_by(first_name: params[:first_name], last_name: params[:last_name])
+  end
+
   def create
     respond_to :html
 
@@ -22,7 +26,7 @@ class GuestsController < ApplicationController
     end
     # if there is still no match, render not found
     if !existing_guest
-      render :not_found
+      redirect_to guest_not_found_path()
       return
     end
     @guest = existing_guest
@@ -30,7 +34,7 @@ class GuestsController < ApplicationController
     # The guest filled out the form previously.
     if @guest.confirmed_at
       GuestMailer.welcome_back_email(@guest).deliver_now
-      render :new_exists
+      redirect_to guest_exists_path(@guest.first_name, @guest.last_name)
     else
       redirect_to guest_path(@guest)
     end
