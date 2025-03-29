@@ -8,7 +8,6 @@ class Guest < ApplicationRecord
 
   auto_strip_attributes :email, :first_name, :last_name, :diet, :songs, :notes
 
-  validates :email, uniqueness: true
   validates :email, format: Devise.email_regexp, allow_blank: true
 
   validates :first_name, presence: true
