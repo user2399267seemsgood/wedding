@@ -10,7 +10,7 @@ ActiveAdmin.register Guest do
 
   form do |_f|
     inputs 'Guest' do
-      input :email, as: :string, required: false
+      input :email, as: :string
       input :first_name
       input :last_name
       input :allowed_plus_ones
