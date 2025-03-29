@@ -42,7 +42,7 @@ class Guest < ApplicationRecord
   end
 
   def is_plus_ones_allowed
-    return !allowed_plus_ones.nil? && allowed_plus_ones > 0
+    return (!allowed_plus_ones.nil? && allowed_plus_ones > 0) || plus_ones.size > 0
   end
 
   def can_add_plus_ones
