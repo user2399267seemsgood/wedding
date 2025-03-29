@@ -37,7 +37,6 @@ en:
   wedding_location: '8808, Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
 
-  select_guest: 'Select your name from the guest list:'
   form_first_name: 'First Name'
   form_last_name: 'Last Name'
   form_email_description: "Please enter your name and email address to begin. We'll send you an email with important information once you have RSVP'd."

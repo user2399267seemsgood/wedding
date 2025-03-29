@@ -37,7 +37,6 @@ de:
   wedding_location: '8808 Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
   
-  select_guest: 'Wähle deinen Namen aus der Gästeliste:'
   form_first_name: 'Vorname'
   form_last_name: 'Nachname'
   form_email_description: "Bitte gib deinen Namen und E-Mail-Adresse ein, um zu beginnen. Wir werden dir eine E-Mail mit wichtigen Informationen schicken, sobald du dich angemeldet hast."
