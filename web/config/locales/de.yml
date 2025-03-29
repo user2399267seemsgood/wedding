@@ -72,7 +72,8 @@ de:
   form_contact_us: 'kontaktiere uns'
   form_back_to_homepage: 'Zurück zur Homepage.'
   form_invite_not_found_title: 'Keine Einladung'
-  form_invite_not_found_text: 'Wir haben deine Eindladung nicht gefunden, bitte versuche es mit einem anderen Namen auf deiner Einladung.'
+  form_invite_not_found_text: 'Wir haben deine Eindladung nicht gefunden, bitte benutze den '
+  form_invite_not_found_invitation_name: "Namen auf deiner Einladung"
   form_invite_not_found_help: "Wenn du eine Einladung erhalten hast und dich trotzdem nicht registrieren kannst, "
 
   when_and_where: 'Wann und Wo'

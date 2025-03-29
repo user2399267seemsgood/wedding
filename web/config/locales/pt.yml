@@ -72,7 +72,8 @@ pt:
   form_contact_us: 'contacta-nos'
   form_back_to_homepage: 'Voltar à página principal.'
   form_invite_not_found_title: 'No Invitation Found'
-  form_invite_not_found_text: 'We were not able to find your invitation, please try another name that is on your invitation.'
+  form_invite_not_found_text: 'We were not able to find your invitation, please use the '
+  form_invite_not_found_invitation_name: "name on your invitation"
   form_invite_not_found_help: "If you got an invitation but cannot register here, please "
   
   when_and_where: 'Quando e Onde'
