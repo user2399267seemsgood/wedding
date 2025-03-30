@@ -38,6 +38,14 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.0833333em;
   text-transform: uppercase;
+ 
+  @media (max-width: 768px) {
+    font-size: 50px; // Medium screens (tablets)
+  }
+
+  @media (max-width: 480px) {
+    font-size: 40px; // Small screens (smartphones)
+  }
 }
 
 h2 {

@@ -91,6 +91,11 @@ pt:
   timeplan_dinner_close_family: 'Jantar com a família mais próxima e padrinhos de casamento'
   timeplan_dresscode: 'Chique'
 
+  bestman_bridesmaid: 'Padrinhos'
+  bestman: 'Padrinho'
+  bridesmaid: 'Madrinha'
+  phone: 'Tel.'
+
   gifts_title: 'Prendas de casamento'
   gifts_desciption: ''
   gifts_button: 'Lista de prendas'

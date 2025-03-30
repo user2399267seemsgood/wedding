@@ -91,12 +91,17 @@ de:
   timeplan_dinner_close_family: 'Abendessen mit enger Verwandtschaft und den Trauzeugen'
   timeplan_dresscode: 'Chiq'
 
+  bestman_bridesmaid: 'Trauzeugen'
+  bestman: 'Trauzeuge'
+  bridesmaid: 'Trauzeugin'
+  phone: 'Mobile'
+
   gifts_title: 'Geschenke'
   gifts_desciption: 'Wir würden uns über Geschenke freuen. Damit ihr es etwas einfacher habt, haben wir eine Geschenkeliste erstellt. Vielen Dank bereits im Voraus.'
   gifts_button: 'Zur Geschenkeliste'
 
   rsvp_title: 'Anmeldung'
-  rsvp_description: "Please RSVP as soon as possible, so we know who is coming and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out you can’t make it, please let us know as soon as you can."
+  rsvp_description: "Bitte melde dich so bald wie möglich an, damit wir wissen, wer kommt, und wir sicherstellen können, dass wir einen Platz und ein Stück Kuchen für dich haben, wenn du kommen kannst! Wenn du es nicht schaffst, gib uns bitte so schnell wie möglich Bescheid."
   rsvp_today: 'Bestätige heute!'
 
   time:

@@ -92,6 +92,11 @@ en:
   timeplan_dinner_close_family: 'Dinner with close family, best man and bridesmaid'
   timeplan_dresscode: 'Chiq'
 
+  bestman_bridesmaid: 'Witnesses'
+  bestman: 'Best man'
+  bridesmaid: 'Bridesmaid'
+  phone: 'Phone'
+
   gifts_title: 'Wedding Gifts'
   gifts_desciption: 'We would be very happy to receive some gifts. To make it simple for you, we have made a list of things we would be happy to have.'
   gifts_button: 'Wedding Gifts List'

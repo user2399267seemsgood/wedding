@@ -1,7 +1,9 @@
 <footer id="welcome-index-footer" class="page-footer">
   <div class="container-fluid">
     <div class="row">
-      <div id="welcome-index-footer-cta" class="col-md-12 text-center">
+      <div id="welcome-index-footer-cta" class="offset-md-3 col-md-6 text-center">
+        <h2><%= t :rsvp_title %></h2>
+        <p><%= t :rsvp_description %></p>
         <%= link_to (t :rsvp_today), new_guest_path, class: 'btn btn-primary wedding-cta-btn' %>
       </div>
     </div>
