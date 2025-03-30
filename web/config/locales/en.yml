@@ -33,7 +33,7 @@ en:
   wedding_name: "Roxan and Daniel's Wedding"
   wedding_couple_names: 'Roxan & Daniel'
   wedding_date: 'Tuesday, 19th of August 2025'
-  wedding_time_start_end: "14:00 to 18:00 o'clock"
+  wedding_time_start_end: "15:00 to 18:00 o'clock"
   wedding_location: '8808, Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
 
@@ -82,7 +82,7 @@ en:
 
   venue_title: 'The Venue'
   venue_howtogetthere_title: 'How do I get there?'
-  venue_howtogetthere_text: 'tbd'
+  venue_howtogetthere_text: "The Pfäffikon SZ castle complex is located in the immediate vicinity of Lake Zurich in the picturesque city of Pfäffikon. It is easily accessible by public transportation (10 minutes walk from the train station) and by car. A sufficient number of parking spaces are available."
 
   timeplan_section: 'The Plan'
   timeplan_title: 'Time Schedule'

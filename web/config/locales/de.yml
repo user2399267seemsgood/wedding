@@ -33,7 +33,7 @@ de:
   wedding_name: "Roxan und Daniels Hochzeit"
   wedding_couple_names: 'Roxan & Daniel'
   wedding_date: 'Dienstag, 19. August 2025'
-  wedding_time_start_end: 'von 14:00 bis 18:00 Uhr'
+  wedding_time_start_end: 'von 15:00 bis 18:00 Uhr'
   wedding_location: '8808 Pfäffikon SZ'
   photo_credits: 'Photo Credits: Pexels'
   
@@ -80,8 +80,8 @@ de:
   add_to_calendar: 'Zum Kalender hinzufügen'
 
   venue_title: 'Ort'
-  venue_howtogetthere_title: 'Wie komme ich dort hin?'
-  venue_howtogetthere_text: 'tbd'
+  venue_howtogetthere_title: 'Wie komme ich dorthin?'
+  venue_howtogetthere_text: 'Die Schlossanlage Pfäffikon SZ liegt in unmittelbarer Nähe des Zürichsees im malerischen Unterdorf von Pfäffikon. Sie ist komfortabel mit öffentlichen Verkehrsmitteln (10 Minuten Fussweg vom Bahnhof) und mit dem Auto erreichbar. Parkplätze sind in genügender Anzahl vorhanden.'
 
   timeplan_section: 'Plan'
   timeplan_title: 'Zeitplan'
