@@ -39,7 +39,7 @@ pt:
 
   form_first_name: 'Nome'
   form_last_name: 'Apelido'
-  form_email_description: "Please enter your name and email address to begin. We'll send you an email with important information once you have RSVP'd."
+  form_email_description: "Please enter your name to begin. We'll send you an email with important information once you have RSVP'd."
   form_continue: 'Continuar'
   form_about_you: 'Sobre ti'
   form_joinus_title: 'Bist du dabei?'
