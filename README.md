@@ -8,7 +8,6 @@
 - Deleted all superfluous `docker-compose...` files and kept only the main one.
 - Changes to `docker-compose.yml` / `.env-dist` (former development.env.template)
     - Database is persisted in the folder `db/data`
-    - Bundle installation is persisted in `web_bundle`
     - Added all necessary Environment Variables to .env-dist
     - Support for running the web page under an nginx-proxy
 - Language support for German / Portuguese / English
