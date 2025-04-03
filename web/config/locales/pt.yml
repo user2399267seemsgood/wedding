@@ -85,16 +85,18 @@ pt:
 
   timeplan_section: 'O Plano'
   timeplan_title: 'Cronograma'
-  timeplan_guests_arrive: 'Convidados chegam'
-  timeplan_wedding_service: 'Casamentos'
+  timeplan_close_guests_arrive: 'Família e padrinhos de casamento chegam.'
+  timeplan_guests_arrive: 'Os convidados chegam.'
+  timeplan_wedding_service: 'Casamento'
+  timeplan_guests_prepare: 'Os convidados recebem os noivos.'
   timeplan_photos_aperitiv: 'Fotos e aperitivo'
+  timeplan_aperitiv_closed: 'Fim do aperitivo'
   timeplan_dinner_close_family: 'Jantar com a família mais próxima e padrinhos de casamento'
-  timeplan_dresscode: 'Chique'
+  timeplan_dresscode: 'Chiq, colorido ou à la Indian-Style'
 
   bestman_bridesmaid: 'Padrinhos'
   bestman: 'Padrinho'
   bridesmaid: 'Madrinha'
-  phone: 'Tel.'
 
   gifts_title: 'Prendas de casamento'
   gifts_desciption: ''
@@ -103,3 +105,19 @@ pt:
   rsvp_title: 'Confirma o teu convite'
   rsvp_description: 'Confirma o teu convite o mais rápido possível, para nós sabermos quantos convidados estarão presentes.'
   rsvp_today: 'Confirma Hoje!'
+
+  mail_rsvp_lookingforward: 'Estamos ansiosos por te ter connosco'
+  mail_rsvp_weddingaddress: 'O endereço é o seguinte'
+  mail_rsvp_qa: 'Perguntas e respostas'
+  mail_rsvp_entered: 'Preencheste recentemente o teu endereço de e-mail para iniciar sessão em'
+  mail_rsvp_getback: 'Se quiseres ver ou atualizar a tua confirmação, podes utilizar a seguinte ligação'
+  mail_rsvp_questions: 'Se tiveres alguma dúvida, basta responder a este e-mail'
+  mail_rsvp_pleasecheck: 'Por favor verifica'
+  mail_rsvp_ourweddingsite: 'o nosso site'
+  mail_rsvp_formoreinfo: 'para mais informações, ou responde a este e-mail'
+  mail_rsvp_cantmakeit: 'Lamentamos saber que não vais poder ir. Se mudares de ideias, podes atualizar o teu registo utilizando a ligação abaixo.'
+  mail_rsvp_seeyou: 'Esperamos voltar a ver-te noutra altura'
+
+  time:
+    formats:
+      long: "%d-%m-%Y %H:%M:%S"

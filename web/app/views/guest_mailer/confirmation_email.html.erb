@@ -1,24 +1,20 @@
 <p><%= @guest.email_safe_salutation %></p>
 
 <% if @guest.attending %>
-<p>We look forward to seeing you!</p>
-<p>The address is:</p>
+<p><%= t :mail_rsvp_lookingforward %>!</p>
+<p><%= t :mail_rsvp_weddingaddress %>:</p>
 <address><%= render partial: 'application/wedding_address' %></address>
 
-<h3>Your RSVP</h3>
-<p>If you would like to view or update your RSVP, you can use the following link to get back to it:</p>
+<h3><%= t :rsvp_title %></h3>
+<p><%= t :mail_rsvp_getback %>:</p>
 <p><%= link_to guest_url(@guest), guest_url(@guest) %></p>
 
-<h3>Sending a Card?</h3>
-<p>If you need it, our mailing address is:</p>
-<address><%= render partial: 'application/mailing_address' %></address>
-
-<h3>Questions and answers</h3>
-<p>Please check <%= link_to 'our wedding website', root_url %> for more information, or you can reply to this email.</p>
+<h3><%= t :mail_rsvp_qa %></h3>
+<p><%= t :mail_rsvp_pleasecheck %> <%= link_to (t :mail_rsvp_ourweddingsite), root_url %> <%= t :mail_rsvp_formoreinfo %></p>
 <% else %>
-<p>We're sorry to hear you can't make it. If you change your mind, you can update your RSVP with the link below:</p>
+<p><%= t :mail_rsvp_cantmakeit %></p>
 <p><%= link_to guest_url(@guest), guest_url(@guest) %></p>
-<p>We hope to see you another time!</p>
+<p><%= t :mail_rsvp_seeyou %></p>
 <% end %>
 
 <p>&nbsp;</p>

@@ -85,16 +85,18 @@ de:
 
   timeplan_section: 'Plan'
   timeplan_title: 'Zeitplan'
+  timeplan_close_guests_arrive: 'Familie und Trauzeugen treffen ein.'
+  timeplan_wedding_service: 'Trauung'
   timeplan_guests_arrive: 'Gäste treffen ein'
-  timeplan_wedding_service: 'Hochzeit'
-  timeplan_photos_aperitiv: 'Photos und Aperitiv'
-  timeplan_dinner_close_family: 'Abendessen mit enger Verwandtschaft und den Trauzeugen'
-  timeplan_dresscode: 'Chiq'
+  timeplan_guests_prepare: 'Gäste empfangen das Brautpaar'
+  timeplan_photos_aperitiv: 'Photos und Apéro'
+  timeplan_aperitiv_closed: 'Ende des Apéros'
+  timeplan_dinner_close_family: 'Abendessen im engstem Familienkreis mit den Trauzeugen'
+  timeplan_dresscode: 'Chiq, farbenfroh oder à la Indian-Style'
 
   bestman_bridesmaid: 'Trauzeugen'
   bestman: 'Trauzeuge'
   bridesmaid: 'Trauzeugin'
-  phone: 'Mobile'
 
   gifts_title: 'Geschenke'
   gifts_desciption: 'Wir würden uns über Geschenke freuen. Damit ihr es etwas einfacher habt, haben wir eine Geschenkeliste erstellt. Vielen Dank bereits im Voraus.'
@@ -103,6 +105,18 @@ de:
   rsvp_title: 'Anmeldung'
   rsvp_description: "Bitte melde dich so bald wie möglich an, damit wir wissen, wer kommt, und wir sicherstellen können, dass wir einen Platz und ein Stück Kuchen für dich haben, wenn du kommen kannst! Wenn du es nicht schaffst, gib uns bitte so schnell wie möglich Bescheid."
   rsvp_today: 'Bestätige heute!'
+
+  mail_rsvp_lookingforward: 'Wir freuen uns auf dich'
+  mail_rsvp_weddingaddress: 'Die Addresse ist die folgende'
+  mail_rsvp_qa: 'Fragen und Antworten'
+  mail_rsvp_entered: 'Du hast kürzlich deine E-Mail-Adresse eingegeben, um dich anzumelden auf'
+  mail_rsvp_getback: 'Wenn du deine Anmeldung einsehen oder aktualisieren möchtest, kannst du den folgenden Link benutzen, um zu ihr zurückzukehren'
+  mail_rsvp_questions: 'Wenn du Fragen hast, kannst du einfach auf diese E-Mail antworten.'
+  mail_rsvp_pleasecheck: 'Bitte überprüfe'
+  mail_rsvp_ourweddingsite: 'unsere Hochzeitsseite'
+  mail_rsvp_formoreinfo: 'für weitere Informationen, oder du kannst auf diese E-Mail antworten.'
+  mail_rsvp_cantmakeit: "Es tut uns leid zu hören, dass du es nicht schaffen kannst. Wenn du deine Meinung änderst, kannst du deine Anmeldung mit dem unten stehenden Link aktualisieren."
+  mail_rsvp_seeyou: 'Wir hoffen, dich ein anderes Mal zu sehen'
 
   time:
     formats:

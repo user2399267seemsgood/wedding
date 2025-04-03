@@ -21,4 +21,10 @@ ActiveAdmin.register Guest do
     end
     actions
   end
+
+  # Allow batch selection
+  batch_action :clear_confirmation, if: proc { current_admin_user } do |ids|
+    Guest.where(id: ids).update_all(confirmed_at: nil)
+    redirect_to collection_path, notice: "Confirmation timestamps have been removed for selected guests."
+  end
 end

@@ -86,16 +86,18 @@ en:
 
   timeplan_section: 'The Plan'
   timeplan_title: 'Time Schedule'
-  timeplan_guests_arrive: 'Guests arrive'
+  timeplan_close_guests_arrive: 'Family, best man and bridesmaid arrive.'
   timeplan_wedding_service: 'Wedding'
+  timeplan_guests_arrive: 'Guests arrive'
+  timeplan_guests_prepare: 'Guests receive the bride and groom.'
   timeplan_photos_aperitiv: 'Photos and aperitiv'
+  timeplan_aperitiv_closed: 'Ende des Apéros'
   timeplan_dinner_close_family: 'Dinner with close family, best man and bridesmaid'
-  timeplan_dresscode: 'Chiq'
+  timeplan_dresscode: 'Chiq, farbenfroh oder à la Indian-Style'
 
   bestman_bridesmaid: 'Witnesses'
   bestman: 'Best man'
   bridesmaid: 'Bridesmaid'
-  phone: 'Phone'
 
   gifts_title: 'Wedding Gifts'
   gifts_desciption: 'We would be very happy to receive some gifts. To make it simple for you, we have made a list of things we would be happy to have.'
@@ -104,3 +106,15 @@ en:
   rsvp_title: 'RSVP'
   rsvp_description: "Please RSVP as soon as possible, so we know who is coming and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out you can’t make it, please let us know as soon as you can."
   rsvp_today: 'RSVP TODAY!'
+
+  mail_rsvp_lookingforward: 'We look forward to seeing you'
+  mail_rsvp_weddingaddress: 'The address is'
+  mail_rsvp_qa: 'Questions and answers'
+  mail_rsvp_entered: 'You recently entered your email address to RSVP on'
+  mail_rsvp_getback: 'If you would like to view or update your RSVP, you can use the following link to get back to it'
+  mail_rsvp_questions: 'If you have any questions, you can ask us by reply.'
+  mail_rsvp_pleasecheck: 'Please check'
+  mail_rsvp_ourweddingsite: 'our wedding site'
+  mail_rsvp_formoreinfo: 'for more information, or you can reply to this email.'
+  mail_rsvp_cantmakeit: "We're sorry to hear you can't make it. If you change your mind, you can update your RSVP with the link below"
+  mail_rsvp_seeyou: 'We hope to see you another time'
