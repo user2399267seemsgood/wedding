@@ -92,7 +92,6 @@ cp .env-dist .env
 docker-compose build
 docker network create duck-net
 docker-compose up -d db
-docker-compose run --rm web bundle install
 docker-compose run --rm web bash -lc 'bin/rails db:create db:migrate'
 docker-compose run --rm web bash -lc 'bin/rails db:seed'
 ```

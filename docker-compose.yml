@@ -36,11 +36,14 @@ services:
       - TZ=Europe/Zurich
     volumes:
       - ./web:/home/app/wedding
-      - ./web_bundle:/usr/local/bundle
+      - web_bundle:/usr/local/bundle
       - /etc/localtime:/etc/localtime:ro
     platform: linux/x86_64
     depends_on:
       - db
+
+volumes:
+  web_bundle:
 
 networks:
   default:
