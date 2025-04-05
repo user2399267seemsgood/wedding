@@ -5,7 +5,7 @@ ActiveAdmin.register PlusOne do
 
   form do |_f|
     inputs 'Plus One' do
-      input :guest, as: :select, collection: Guest.pluck(:first_name, :last_name, :id), prompt: "Select a Guest"
+      input :guest, as: :select, collection: Guest.all.map { |g| ["#{g.first_name} #{g.last_name}", g.id] }, prompt: "Select a Guest"
       input :first_name
       input :last_name
       input :diet, as: :text
