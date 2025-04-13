@@ -1,4 +1,7 @@
 <section id="welcome-index-leader" class="jumbotron text-center">
+  <div class="location-flag">
+    <%= image_tag("flags/ch.png", alt: "Schweiz") %>
+  </div>
   <div class="language-switcher">
      <%= link_to image_tag("flags/de.png", alt: "Deutsch"), switch_locale_path(locale: 'de') %>
      <%= link_to image_tag("flags/pt.png", alt: "Português"), switch_locale_path(locale: 'pt') %>

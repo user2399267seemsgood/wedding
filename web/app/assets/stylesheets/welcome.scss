@@ -2,6 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.location-flag {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.location-flag img {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+}
+
 .language-switcher {
   position: absolute;
   top: 10px;
