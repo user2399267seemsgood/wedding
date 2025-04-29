@@ -9,7 +9,10 @@
       <div class="col-md-12">
         <h2><%= t :venue_howtogetthere_title %></h2>
         <p><%= t :venue_howtogetthere_text %></p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.2404895506465!2d8.774427678521535!3d47.20452317238129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab14e93de7655%3A0x6ef6304bfa438773!2sSchlossgut%20Pf%C3%A4ffikon!5e0!3m2!1sde!2sch!4v1695904978818!5m2!1sde!2sch" style="border:0; width: 100%; height: 30vh; min-height: 20em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="map-container" class="google-map-placeholder">
+          <p>We use Google Maps, which may set cookies. Click below to load the map.</p>
+          <button id="load-map" class="btn btn-primary">Load Map</button>
+        </div>
       </div>
     </div>
   </div>
