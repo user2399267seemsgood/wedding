@@ -72,6 +72,22 @@ ActiveAdmin.register Gift do
     end
   end
 
+  # Member action: visible for each gift in the show page and index
+  member_action :copy, method: :get do
+    original = Gift.find(params[:id])
+    @gift = original.dup
+    render :new, locals: { gift: @gift }
+  end
+  action_item :copy, only: :show do
+    link_to 'Copy Gift', copy_admin_gift_path(gift)
+  end
+
+  # Member action: visible for each gift already claimed
+  member_action :unclaim, method: :post do
+    gift = Gift.find(params[:id])
+    gift.update(claimer_name: nil, claimer_email: nil)
+    redirect_to admin_gift_path(gift), notice: "Gift has been unclaimed."
+  end
   action_item :unclaim, only: :show do
     if gift.claimed
       link_to "Unclaim Gift", unclaim_admin_gift_path(gift), method: :post
