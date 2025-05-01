@@ -101,6 +101,7 @@ pt:
   gifts_title: 'Prendas de casamento'
   gifts_desciption: ''
   gifts_button: 'Lista de prendas'
+  payment_options_title: 'Como tu nos podes oferecer dinheiro'
 
   rsvp_title: 'Confirma o teu convite'
   rsvp_description: 'Confirma o teu convite o mais rápido possível, para nós sabermos quantos convidados estarão presentes.'

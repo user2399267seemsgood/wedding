@@ -19,6 +19,8 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get 'gifts/payment_options', to: 'gifts#payment_options'
+
   resources :gifts, only: [:index] do
     member do
       post :claim

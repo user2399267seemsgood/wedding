@@ -14,7 +14,7 @@
       <!-- Gift Details -->
       <div class="gift-details">
         <div class="gift-name"><%= gift.name %></div>
-        <p class="gift-description"><%= gift.description %></p>
+        <p class="gift-description"><%= simple_format(gift.description) %></p>
         <p class="gift-description">Price Range:
           <% if gift.price_range == "$$$" %>
           💎💎💎
