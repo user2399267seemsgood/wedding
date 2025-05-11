@@ -1,6 +1,25 @@
 <div class="gift-list">
   <h1>🎁 <%= t :gifts_title %> 🎁</h1>
 
+  <div class="gift-item">
+    <img src="assets/payment_options/cash.jpg" class="gift-image" />
+    <div class="gift-details">
+      <div class="gift-name">Geld / Dinheiro / Money</div>
+      <p class="gift-description">
+        Konntest du kein Geschenk finden?<br />
+        Wir freuen uns auch auf Mithilfe für unsere Hochzeitsreise. :-)
+        <br /><br />
+        Não conseguiste achar nenhuma prenda?<br />
+        Também ficamos contentes se contribuires para a nossa lua de mel. :-)
+        <br /><br />
+        You did not find any present?<br />
+        We will also be happy if you contribute to our honeymoon. :-)
+        <br /><br />
+        <a href="/gifts/payment_options" target="_blank">Payment Options</a>
+      </p>
+    </div>
+  </div>
+
   <% @gifts.each do |gift| %>
     <div class="gift-item <%= 'claimed' if gift.claimed %>">
       
