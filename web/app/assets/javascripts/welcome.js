@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function loadMap() {
     container.innerHTML = `
       <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.2404895506465!2d8.774427678521535!3d47.20452317238129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab14e93de7655%3A0x6ef6304bfa438773!2sSchlossgut%20Pf%C3%A4ffikon!5e0!3m2!1sde!2sch!4v1695904978818!5m2!1sde!2sch"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11776384.336762946!2d-18.82697955!3d35.99157515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb32242dbf4226d5%3A0x2ab84b091c4ef041!2sPortugal!5e1!3m2!1sde!2sch!4v1746958467634!5m2!1sde!2sch"
         style="border:0; width: 100%; height: 30vh; min-height: 20em;"
         allowfullscreen=""
         loading="lazy" referrerpolicy="no-referrer-when-downgrade">

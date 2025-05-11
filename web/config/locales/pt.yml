@@ -30,11 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pt:
+  tbd: 'Informações seguem...'
+
   wedding_name: "Casamento de Roxan e Daniel"
   wedding_couple_names: 'Roxan & Daniel'
-  wedding_date: 'terça-feira, 19 de Agosto de 2025'
-  wedding_time_start_end: 'das 15:00 até às 18:00 horas'
-  wedding_location: '8808, Pfäffikon SZ'
+  wedding_date: 'sábado, 23 de Maio de 2026'
+  wedding_time_start_end: ''
+  wedding_location: 'Portugal'
   photo_credits: 'Photo Credits: Pexels'
 
   form_first_name: 'Nome'
@@ -81,7 +83,7 @@ pt:
 
   venue_title: 'O Espaço'
   venue_howtogetthere_title: 'Como chegar lá?'
-  venue_howtogetthere_text: "O complexo do castelo de Pfäffikon SZ está localizado nas imediações do Lago de Zurique, na pitoresca cidade de Pfäffikon. É facilmente acessível por transportes públicos (10 minutos a pé da estação de comboios) e de carro. Está disponível um número suficiente de lugares de estacionamento."
+  venue_howtogetthere_text: ''
 
   timeplan_section: 'O Plano'
   timeplan_title: 'Cronograma'
@@ -99,7 +101,7 @@ pt:
   bridesmaid: 'Madrinha'
 
   gifts_title: 'Prendas de casamento'
-  gifts_desciption: ''
+  gifts_desciption: 'Teremos todo o gosto em receber presentes. Para vos facilitar a tarefa, criámos uma lista de presentes. Muito obrigado desde já.'
   gifts_button: 'Lista de prendas'
   payment_options_title: 'Como tu nos podes oferecer dinheiro'
 

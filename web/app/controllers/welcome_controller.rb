@@ -2,8 +2,7 @@
 
 class WelcomeController < ApplicationController
   def index
-    @google_maps_url = 'https://maps.app.goo.gl/CNJj3cWefU9G3WzS6'
-    @cool_earth_url = 'https://www.coolearth.org/'
+    @google_maps_url = 'https://maps.app.goo.gl/iao2eALm4x3pLKgx5'
   end
 
   def switch_locale
