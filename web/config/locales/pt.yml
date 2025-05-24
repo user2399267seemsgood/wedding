@@ -41,10 +41,10 @@ pt:
 
   form_first_name: 'Nome'
   form_last_name: 'Apelido'
-  form_email_description: "Please enter your name to begin. We'll send you an email with important information once you have RSVP'd."
+  form_email_description: 'Introduz o teu nome para começar. Enviar-te-emos um e-mail com informações importantes assim que tiveres confirmado a tua presença.'
   form_continue: 'Continuar'
   form_about_you: 'Sobre ti'
-  form_joinus_title: 'Bist du dabei?'
+  form_joinus_title: 'Estarás presente?'
   form_yes: 'Sim'
   form_no: 'Não'
   form_dietary_preferences: 'Alergias'
