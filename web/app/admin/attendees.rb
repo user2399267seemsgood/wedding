@@ -4,9 +4,11 @@ ActiveAdmin.register Attendee do
   scope :child?
   scope :diet?
 
+  # Default sorting by first_name asc, then last_name asc
+  config.sort_order = 'first_name_asc'
   controller do
     def apply_sorting(chain)
-      params[:order] ? chain : chain.reorder(last_name: :asc, first_name: :asc)
+      params[:order] ? chain : chain.reorder(first_name: :asc, last_name: :asc)
     end
   end
 

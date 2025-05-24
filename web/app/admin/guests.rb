@@ -5,8 +5,18 @@ ActiveAdmin.register Guest do
                 :notes, :allowed_plus_ones
 
   scope :confirmed
+  scope :not_confirmed
   scope :attending
   scope :not_attending
+
+  # Default sorting by first_name asc, then last_name asc
+  config.per_page = 500
+  config.sort_order = 'first_name_asc'
+  controller do
+    def apply_sorting(chain)
+      params[:order] ? chain : chain.reorder(first_name: :asc, last_name: :asc)
+    end
+  end
 
   form do |_f|
     inputs 'Guest' do

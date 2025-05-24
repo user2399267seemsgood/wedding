@@ -59,6 +59,7 @@ class Guest < ApplicationRecord
   has_many :plus_ones, dependent: :destroy
 
   scope :confirmed, -> { where.not(confirmed_at: nil) }
+  scope :not_confirmed, -> { where(confirmed_at: nil) }
   scope :attending, -> { confirmed.where(attending: true) }
   scope :not_attending, -> { confirmed.where(attending: false) }
 end
