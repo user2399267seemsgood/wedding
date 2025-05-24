@@ -72,9 +72,9 @@ pt:
   form_contact_us: 'contacta-nos'
   form_back_to_homepage: 'Voltar à página principal.'
   form_invite_not_found_title: 'No Invitation Found'
-  form_invite_not_found_text: 'We were not able to find your invitation, please use the '
-  form_invite_not_found_invitation_name: "name on your invitation"
-  form_invite_not_found_help: "If you got an invitation but cannot register here, please "
+  form_invite_not_found_text: 'Não foi possível encontrar o teu convite, por favor utiliza o '
+  form_invite_not_found_invitation_name: 'nome escrito no convite e elimina quaisquer espaços em branco existentes'
+  form_invite_not_found_help: "Se recebeste um convite e não te consegues registar, por favor "
   
   when_and_where: 'Quando e Onde'
   add_to_calendar: 'Adicionar ao calendário'

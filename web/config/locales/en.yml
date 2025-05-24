@@ -73,7 +73,7 @@ en:
   form_back_to_homepage: 'Back to homepage.'
   form_invite_not_found_title: 'No Invitation Found'
   form_invite_not_found_text: 'We were not able to find your invitation, please use the '
-  form_invite_not_found_invitation_name: "name on your invitation"
+  form_invite_not_found_invitation_name: "name on your invitation and remove any trailing whitespaces"
   form_invite_not_found_help: "If you got an invitation but cannot register here, please "
 
 
