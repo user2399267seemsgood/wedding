@@ -13,6 +13,6 @@ class ApplicationController < ActionController::Base
   private
 
   def set_locale
-    I18n.locale = cookies[:locale] || :de
+    I18n.locale = cookies[:locale] || :pt
   end
 end
