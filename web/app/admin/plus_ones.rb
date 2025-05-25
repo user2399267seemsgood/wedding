@@ -7,8 +7,12 @@ ActiveAdmin.register PlusOne do
   config.per_page = 500
   config.sort_order = 'first_name_asc'
   controller do
-    def apply_sorting(chain)
-      params[:order] ? chain : chain.reorder(first_name: :asc, last_name: :asc)
+    def scoped_collection
+      if params[:order].blank?
+        super.reorder(first_name: :asc, last_name: :asc)
+      else
+        super
+      end
     end
   end
 

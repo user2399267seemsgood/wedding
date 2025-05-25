@@ -7,8 +7,12 @@ ActiveAdmin.register Attendee do
   # Default sorting by first_name asc, then last_name asc
   config.sort_order = 'first_name_asc'
   controller do
-    def apply_sorting(chain)
-      params[:order] ? chain : chain.reorder(first_name: :asc, last_name: :asc)
+    def scoped_collection
+      if params[:order].blank?
+        super.reorder(first_name: :asc, last_name: :asc)
+      else
+        super
+      end
     end
   end
 
