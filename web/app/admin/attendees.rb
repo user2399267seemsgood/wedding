@@ -20,7 +20,6 @@ ActiveAdmin.register Attendee do
     column :first_name
     column :last_name
     column :email
-    column :diet
     column :notes
     column :child
     column :updated_at
