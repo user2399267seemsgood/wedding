@@ -39,10 +39,10 @@ pt:
 
   form_first_name: 'Nome'
   form_last_name: 'Apelido'
-  form_email_description: "Please enter your name to begin. We'll send you an email with important information once you have RSVP'd."
+  form_email_description: 'Introduz o teu nome para começar. Enviar-te-emos um e-mail com informações importantes assim que tiveres confirmado a tua presença.'
   form_continue: 'Continuar'
   form_about_you: 'Sobre ti'
-  form_joinus_title: 'Bist du dabei?'
+  form_joinus_title: 'Estarás presente?'
   form_yes: 'Sim'
   form_no: 'Não'
   form_dietary_preferences: 'Alergias'
@@ -64,7 +64,7 @@ pt:
   form_thanks: 'Obrigado!'
   form_we_sent_an_email: "Nós enviámos uma e-mail a "
   form_welcome_back_title: 'Bemvindo de volta'
-  form_welcome_back_text: "Es sieht so aus, als hättest du deine Anmeldung bereits ausgefüllt. Wir haben dir eine E-Mail mit einem Link geschickt, über den du sie aktualisieren kannst."
+  form_welcome_back_text: 'Parece que já completaste o teu registo. Enviámos- te um e-mail com uma ligação que podes utilizar para o actualizar.'
   form_check_your_email: 'Verifica o teu e-mail, inclusivamente a pasta spam: '
   form_check_your_email_few_minutes: "Se não receberes o e-mail em poucos minutos, verifica a pasta spam. Se também não estiver aí "
   form_email_not_received: "Se não recebeste o e-mail, "
