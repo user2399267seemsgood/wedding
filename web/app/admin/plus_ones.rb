@@ -26,4 +26,16 @@ ActiveAdmin.register PlusOne do
     end
     actions
   end
+
+  # Customize looks
+  index do
+    selectable_column
+    id_column
+    column :first_name
+    column :last_name
+    column :diet
+    column :child
+    column :guest
+    actions
+  end
 end

@@ -41,4 +41,19 @@ ActiveAdmin.register Guest do
     Guest.where(id: ids).update_all(confirmed_at: nil)
     redirect_to collection_path, notice: "Confirmation timestamps have been removed for selected guests."
   end
+
+  # Customize looks
+  index do
+    selectable_column
+    id_column
+    column :first_name
+    column :last_name
+    column :email
+    column :attending
+    column :allowed_plus_ones
+    column :token do |guest|
+      link_to guest.token, "/guests/#{guest.id}-#{guest.token}", target: "_blank"
+    end
+    actions
+  end
 end
