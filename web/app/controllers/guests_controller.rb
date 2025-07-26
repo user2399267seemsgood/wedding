@@ -18,7 +18,7 @@ class GuestsController < ApplicationController
     existing_guest = Guest.find_by(first_name: guest_params[:first_name].strip, last_name: guest_params[:last_name].strip)
     # Check if there is a plus one with that name
     if !existing_guest
-      guest_ids = PlusOne.select(:guest_id).where(first_name: guest_params[:first_name], last_name: guest_params[:last_name])
+      guest_ids = PlusOne.select(:guest_id).where(first_name: guest_params[:first_name].strip, last_name: guest_params[:last_name].strip)
       # If there is not exactly one match we cannot determine which guest to use.
       if guest_ids.length() == 1
         existing_guest = Guest.find_by(id: guest_ids[0].guest_id)
