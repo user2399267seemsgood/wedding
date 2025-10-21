@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 text-center">
+      <div class="col-md-4 text-center">
         <h2><%= link_to 'wedding.ics' do -%>
           <%= render partial: 'calendar_svg' %>
         <%- end %></h2>
@@ -17,7 +17,7 @@
         </p>
         <p><%= link_to (t :add_to_calendar), 'wedding.ics' %></p>
       </div>
-      <div class="col-md-6 text-center">
+      <div class="col-md-4 text-center">
         <h2><%= link_to @google_maps_url do -%>
           <%= render partial: 'map_marker_svg' %>
         <%- end %></h2>
@@ -26,6 +26,17 @@
         </p>
         <p>
           <%= link_to 'Google Maps', @google_maps_url %>
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h2><%= link_to @google_maps_url_dinner do -%>
+          <%= render partial: 'map_marker_svg' %>
+        <%- end %></h2>
+        <p>
+          <%= render partial: 'dinner_address' %>
+        </p>
+        <p>
+          <%= link_to 'Google Maps', @google_maps_url_dinner %>
         </p>
       </div>
     </div>

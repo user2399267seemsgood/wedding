@@ -10,11 +10,20 @@
         <h2><%= t :venue_howtogetthere_title %></h2>
 
         <p><%= t :tbd %></p>
-        <p><%= t :venue_howtogetthere_text %></p>
-        
+        <p><%= simple_format(t :venue_howtogetthere_text) %></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
         <div id="map-container" class="google-map-placeholder">
           <p>We use Google Maps, which may set cookies. Click below to load the map.</p>
           <button id="load-map" class="btn btn-primary">Load Map</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div id="map-container-2" class="google-map-placeholder">
+          <p>We use Google Maps, which may set cookies. Click below to load the map.</p>
+          <button id="load-map-2" class="btn btn-primary">Load Map</button>
         </div>
       </div>
     </div>
