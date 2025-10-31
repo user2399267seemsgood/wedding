@@ -83,8 +83,14 @@ en:
   add_to_calendar: 'Add to calendar'
 
   venue_title: 'The Venue'
-  venue_howtogetthere_title: 'How do I get there?'
-  venue_howtogetthere_text: ''
+  venue_text: "<a href=\"https://louzeiras.com\">Monte das Louzeiras</a> is a unique brand from Alentejo - the sunniest region in Portugal, a region of flavours picturesque landscapes, handicrafts and historical legacies, a place where you get involved with centuries of history and understand time in its plentitude in every sense. The farm sits in middle of centuries-old olive trees between Vale de Vargo and Vila Nova São Bento in the council of Serpa."
+
+  accommodation_title: 'Accommodation'
+  accommodation_text: "For those flying to Lisbon on the Friday before the wedding, we recommend traveling to Serpa either by rental car or by bus from the \"Sete Rios\" bus station (see <a href=\"https://www.rome2rio.com/de/map/Lissabon/Serpa?departureDate=2026-05-22# r/Bus/s/0\">Rome2Rio suggestion</a>). In Serpa, the <a href=\"https://serpahotel.pt/en\">Hotel Serpa</a> is offering special rates for our wedding, and you are welcome to book a room with a 10% discount. To do so, use the discount code <code>ML10</code> when booking a room <code>Non-refundable offer, breakfast included</code>. For those who do not have a ride, we will organize a shuttle to take guests from the hotel to the church, from the church to the wedding reception, and back to the hotel."
+  accommodation_text2: "There is also the option of staying overnight in glamping tents at the wedding venue, Monte das Louzeiras. For 90 €, you can reserve one of the 8 tents for yourselves, including breakfast. You can find all further information about the respective accommodation on the corresponding booking page."
+  accommodation_button_title: 'Book here'
+  accommodation_link: 'https://serpahotel.pt/en'
+  accommodation_link2: 'https://louzeiras.com/en-ch/collections/campsite-on-the-farm-of-monte-das-louzeiras'
 
   timeplan_section: 'The Plan'
   timeplan_title: 'Time Schedule'
@@ -96,6 +102,8 @@ en:
   timeplan_aperitiv_closed: 'Ende des Apéros'
   timeplan_dinner_close_family: 'Dinner with close family, best man and bridesmaid'
   timeplan_dresscode: 'Chiq, farbenfroh oder à la Indian-Style'
+  
+  menu_text: 'Let yourself be surprised by a delicious buffet featuring regional specialties.'
 
   bestman_bridesmaid: 'Witnesses'
   bestman: 'Best man'
@@ -105,6 +113,8 @@ en:
   gifts_desciption: 'We would be very happy to receive some gifts. To make it simple for you, we have made a list of things we would be happy to have.'
   gifts_button: 'Wedding Gifts List'
   payment_options_title: "How to Gift Us Money"
+
+  games_reachoutto_witnesses: 'You have any questions? You want to suggest a game or play something at the wedding? You want to show a presentation of the bride and groom? Reach out to our best man and bridesmaid! They will help you with the organisation.'
 
   rsvp_title: 'RSVP'
   rsvp_description: "Please RSVP as soon as possible, so we know who is coming and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out you can’t make it, please let us know as soon as you can."

@@ -82,8 +82,14 @@ pt:
   add_to_calendar: 'Adicionar ao calendário'
 
   venue_title: 'O Espaço'
-  venue_howtogetthere_title: 'Como chegar lá?'
-  venue_howtogetthere_text: ''
+  venue_text: "<a href=\"https://louzeiras.com\">Monte das Louzeiras</a> é uma marca única do Alentejo - a região mais ensolarada de Portugal, uma região de sabores, paisagens pitorescas, artesanato e legados históricos, um lugar onde se envolve com séculos de história e compreende o tempo na sua plenitude, em todos os sentidos. O monte está situado no meio das oliveiras centenárias entre Vale de Vargo e Vila Nova São Bento no Conselho de Serpa."
+
+  accommodation_title: 'Alojamento'
+  accommodation_text: "Para quem voa para Lisboa na sexta-feira antes do casamento, recomendamos ir para Serpa de carro alugado ou de autocarro, partindo da estação rodoviária \"Sete Rios\" (vê a <a href=\"https://www.rome2rio.com/de/map/Lissabon/Serpa?departureDate=2026-05-22# r/Bus/s/0\">sugestão Rome2Rio</a>). Em Serpa, com condições especiais para o nosso casamento, existe o <a href=\"https://serpahotel.pt/\">Hotel Serpa</a>, onde podem reservar um quarto com 10% de desconto. Para isso, podem usar o código de desconto <code>ML10</code> ao reservar um quarto <code>Oferta não reembolsável, pequeno-almoço incluído</code>. Para aqueles que não têm transporte, organizaremos um serviço de transporte que levará os convidados do hotel para a igreja, da igreja para o copo de água e de volta ao hotel."
+  accommodation_text2: "Também existe a possibilidade de pernoitar em tendas glamorosas directamente no local do copo de água, no Monte das Louzeiras. Por 90 €, podem reservar uma das 8 tendas, com pequeno-almoço incluído. Todas as informações adicionais sobre cada alojamento podem ser encontradas na página de reservas correspondente."
+  accommodation_button_title: 'Reservar'
+  accommodation_link: 'https://serpahotel.pt/'
+  accommodation_link2: 'https://louzeiras.com/pt/collections/campsite-on-the-farm-of-monte-das-louzeiras'
 
   timeplan_section: 'O Plano'
   timeplan_title: 'Cronograma'
@@ -95,6 +101,8 @@ pt:
   timeplan_aperitiv_closed: 'Fim do aperitivo'
   timeplan_dinner_close_family: 'Jantar com a família mais próxima e padrinhos de casamento'
   timeplan_dresscode: 'Chiq, colorido ou à la Indian-Style'
+  
+  menu_text: 'Deixem-se surpreender por um requintado buffet com especialidades da região.'
 
   bestman_bridesmaid: 'Padrinhos'
   bestman: 'Padrinho'
@@ -104,6 +112,8 @@ pt:
   gifts_desciption: 'Teremos todo o gosto em receber presentes. Para vos facilitar a tarefa, criámos uma lista de presentes. Muito obrigado desde já.'
   gifts_button: 'Lista de prendas'
   payment_options_title: 'Como nos podes oferecer dinheiro'
+
+  games_reachoutto_witnesses: 'Tens alguma dúvida? Queres sugerir um jogo, fazer alguma brincadeira, cantar ou tocar algo no casamento? Queres fazer uma apresentação dos noivos? Fala com o padrinho e a madrinha de casamento! Eles ajudam-te com a organização.'
 
   rsvp_title: 'Confirma o teu convite'
   rsvp_description: 'Confirma o teu convite o mais rápido possível, para nós sabermos quantos convidados estarão presentes.'

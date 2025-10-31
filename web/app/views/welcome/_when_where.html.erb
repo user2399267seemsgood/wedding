@@ -12,13 +12,14 @@
         <%- end %></h2>
         <p>
           <strong><%= t :tbd %><%= t :wedding_time_start_end %></strong><br>
-          <%= t :wedding_date %><br>
-          &nbsp;<br>
+          <%= t :wedding_date %><br />
+          &nbsp;<br />
+          &nbsp;<br />
         </p>
         <p><%= link_to (t :add_to_calendar), 'wedding.ics' %></p>
       </div>
       <div class="col-md-4 text-center">
-        <h2><%= link_to @google_maps_url do -%>
+        <h2><%= link_to @google_maps_url, target: "_blank" do -%>
           <%= render partial: 'map_marker_svg' %>
         <%- end %></h2>
         <p>
@@ -29,7 +30,7 @@
         </p>
       </div>
       <div class="col-md-4 text-center">
-        <h2><%= link_to @google_maps_url_dinner do -%>
+        <h2><%= link_to @google_maps_url_dinner, target: "_blank" do -%>
           <%= render partial: 'map_marker_svg' %>
         <%- end %></h2>
         <p>

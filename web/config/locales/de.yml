@@ -82,8 +82,14 @@ de:
   add_to_calendar: 'Zum Kalender hinzufügen'
 
   venue_title: 'Ort'
-  venue_howtogetthere_title: 'Wie komme ich dorthin?'
-  venue_howtogetthere_text: ''
+  venue_text: "<a href=\"https://louzeiras.com\">Monte das Louzeiras</a> ist eine einzigartige Marke aus dem Alentejo – der sonnigsten Region Portugals, einer Region voller Aromen, malerischer Landschaften, Kunsthandwerk und historischer Hinterlassenschaften, ein Ort, an dem Sie sich auf Jahrhunderte alte Geschichte einlassen und die Zeit in ihrer Fülle in jeder Hinsicht verstehen. Die Farm liegt inmitten jahrhundertealten Olivenbäume zwischen Vale de Vargo und Vila Nova São Bento im Gemeindegebiet von Serpa."
+
+  accommodation_title: 'Unterkunft'
+  accommodation_text: "Für diejenigen, die am Freitag vor der Hochzeit nach Lissabon fliegen, empfehlen wir entweder mit einem Mietauto oder mit dem Bus, von der Bus Station \"Sete Rios\" aus, nach Serpa zu fahren (siehe <a href=\"https://www.rome2rio.com/de/map/Lissabon/Serpa?departureDate=2026-05-22#r/Bus/s/0\">Vorschlag Rome2Rio</a>). In Serpa gibt es, mit Spezialkonditionen für unsere Hochzeit, das <a href=\"https://serpahotel.pt/en\">Hotel Serpa</a>, in dem ihr gerne ein Zimmer mit 10% Rabatt buchen könnt. Dazu könnt ihr den Rabattcode <code>ML10</code> bei der Buchung eines Zimmers <code>Non-refundable offer, breakfast included</code> verwenden. Für diejenigen, die keine Mitfahrgelegenheit haben, werden wir einen Shuttle organisieren, der die Gäste vom Hotel zur Kirche, von der Kirche zum Hochzeitsfest und wieder zurück zum Hotel fahren wird."
+  accommodation_text2: "Es gibt auch die Möglichkeit direkt beim Hochzeitsfest, im Monte das Louzeiras, in Glamping Zelten zu übernachten. Für 90 € könnt ihr dort eines der 8 Zelte für euch reservieren inkl. Frühstück. Alle weiteren Infos zu der jeweiligen Unterkunft findet ihr auf den entsprechenden Buchungsseite."
+  accommodation_button_title: 'Hier buchen'
+  accommodation_link: 'https://serpahotel.pt/en'
+  accommodation_link2: 'https://louzeiras.com/de/collections/campsite-on-the-farm-of-monte-das-louzeiras'
 
   timeplan_section: 'Plan'
   timeplan_title: 'Zeitplan'
@@ -95,6 +101,8 @@ de:
   timeplan_aperitiv_closed: 'Ende des Apéros'
   timeplan_dinner_close_family: 'Abendessen im engstem Familienkreis mit den Trauzeugen'
   timeplan_dresscode: 'Chiq, farbenfroh oder à la Indian-Style'
+  
+  menu_text: 'Lasst euch von einem feinen Buffet mit Spezialitäten aus der Region überraschen.'
 
   bestman_bridesmaid: 'Trauzeugen'
   bestman: 'Trauzeuge'
@@ -104,6 +112,8 @@ de:
   gifts_desciption: 'Wir würden uns über Geschenke freuen. Damit ihr es etwas einfacher habt, haben wir eine Geschenkeliste erstellt. Vielen Dank bereits im Voraus.'
   gifts_button: 'Zur Geschenkeliste'
   payment_options_title: 'Wie du uns Geld schenken kannst'
+
+  games_reachoutto_witnesses: 'Hast du Fragen? Möchtest du ein Spiel vorschlagen oder etwas auf der Hochzeit spielen? Möchtest du eine Präsentation des Brautpaares zeigen? Wende dich an unseren Trauzeugen und unsere Brautjungfer! Sie helfen dir gerne bei der Organisation.'
 
   rsvp_title: 'Anmeldung'
   rsvp_description: "Bitte melde dich so bald wie möglich an, damit wir wissen, wer kommt, und wir sicherstellen können, dass wir einen Platz und ein Stück Kuchen für dich haben, wenn du kommen kannst! Wenn du es nicht schaffst, gib uns bitte so schnell wie möglich Bescheid."

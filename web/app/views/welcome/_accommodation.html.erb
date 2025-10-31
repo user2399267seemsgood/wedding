@@ -1,0 +1,47 @@
+<section id="welcome-index-accommodation-leader" class="jumbotron text-center">
+  <div class="container">
+    <h1><%= t :accommodation_title %></h1>
+  </div>
+</section>
+<section id="welcome-index-accommodation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p><%= simple_format(t :accommodation_text) %></p>
+        
+        <p><%= simple_format(t :accommodation_text2) %></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>
+          <%= link_to @google_maps_url_hotel, target: "_blank" do -%>
+            <%= render partial: 'map_marker_svg' %>
+          <%- end %>
+        </h2>
+        <p class="text-center">
+          <strong>Hotel Serpa</strong><br />
+          Rua do Parque de Campismo<br />
+          7830-303 Serpa<br />
+          Portugal
+        </p>
+        <p class="text-center">
+          <%= link_to (t :accommodation_button_title), (t :accommodation_link), class: 'btn btn-primary wedding-cta-btn', target: "_blank" %>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h2>
+          <%= link_to @google_maps_url_dinner, target: "_blank" do -%>
+            <%= render partial: 'map_marker_svg' %>
+          <%- end %>
+        </h2>
+        <p class="text-center">
+          <%= render partial: 'dinner_address' %>
+        </p>
+        <p class="text-center">
+          <%= link_to (t :accommodation_button_title), (t :accommodation_link2), class: 'btn btn-primary wedding-cta-btn', target: "_blank" %>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
